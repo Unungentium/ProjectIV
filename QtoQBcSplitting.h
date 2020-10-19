@@ -85,7 +85,18 @@ public:
    * @param rho The spin density matrix
    */
   double P(const double z, const Energy2 t,
-	   const IdList & , const bool, const RhoDMatrix &) const {
+	   const IdList & , const bool, const RhoDMatrix &) const {(-4*Power(M,4)*Power(-1 + Subscript(z\[Alpha],2),2)*
+        Subscript(\[Alpha],1)*Subscript(\[Alpha],2) - 
+       (-1 + z)*Power(1 + Subscript(z\[Alpha],1),2)*
+        Power(Power(q,2) - 
+          Power(M,2)*Power(Subscript(\[Alpha],2),2),2) - 
+       Power(M,2)*(-1 + Subscript(z\[Alpha],2))*
+        (Power(q,2) - Power(M,2)*Power(Subscript(\[Alpha],2),2))*
+        (2 + 3*z + 4*(-1 + Subscript(z\[Alpha],2))*
+           Subscript(z\[Alpha],2) + 
+          Subscript(\[Alpha],2)*
+           (-4 + Power(z,2) - 2*Power(z,2)*Subscript(\[Alpha],2)))
+       ))/Power(-1 + z*Subscript(\[Alpha],2),2)
   }
 
   /**
@@ -94,7 +105,7 @@ public:
    * @param z   The energy fraction.
    * @param ids The PDG codes for the particles in the splitting.
    */
-  double overestimateP(const double z, const IdList &) const {
+double overestimateP(const double z, const IdList &) const {Power(-1 + z*Subscript(\[Alpha],2),2)
   }
 
   /**
@@ -108,7 +119,18 @@ public:
    * @param rho The spin density matrix
    */
   double ratioP(const double z, const Energy2 t,
-		const IdList & , const bool, const RhoDMatrix &) const {
+		const IdList & , const bool, const RhoDMatrix &) const {1/(-4*Power(M,4)*Power(-1 + Subscript(z\[Alpha],2),2)*
+        Subscript(\[Alpha],1)*Subscript(\[Alpha],2) - 
+       (-1 + z)*Power(1 + Subscript(z\[Alpha],1),2)*
+        Power(Power(q,2) - 
+          Power(M,2)*Power(Subscript(\[Alpha],2),2),2) - 
+       Power(M,2)*(-1 + Subscript(z\[Alpha],2))*
+        (Power(q,2) - Power(M,2)*Power(Subscript(\[Alpha],2),2))*
+        (2 + 3*z + 4*(-1 + Subscript(z\[Alpha],2))*
+           Subscript(z\[Alpha],2) + 
+          Subscript(\[Alpha],2)*
+           (-4 + Power(z,2) - 2*Power(z,2)*Subscript(\[Alpha],2)))
+       ))
   }
   
   /**

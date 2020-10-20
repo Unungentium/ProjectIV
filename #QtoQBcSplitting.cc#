@@ -66,7 +66,7 @@ void QtoQBcSplitting::guesstz(Energy2 t1,unsigned int iopt,
   // Energy2 pre = 64.*O1_*sqr(Constants::pi)/243./m_;
 
   // todo prefactor here
-  Energy2 pre =(64*Power(Pi,2)*Power(Abs(Subscript(psi,0)(0)),2))/(27.*Power(-1 + a,2)*M*Power(-(Power(a,2)*Power(M,2)) + Power(q,2),2)) ;
+  Energy2 pre =(64*Power(Pi,2)*Power(Abs(Subscript(psi,0)(0)),2))/(27.*Power(-1 + a,2)*M)) ;
   
   Energy2 c = (upper - lower) * colourFactor() * pre *
     sqr(alpha()->overestimateValue()/Constants::twopi) * enhance * detune;

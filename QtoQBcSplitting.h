@@ -136,6 +136,7 @@ double overestimateP(const double z, const IdList &) const {
    */
   double integOverP(const double z, const IdList & ,
 		    unsigned int PDFfactor=0) const {
+    return log(z/(1-z));
   }
 
   /**
@@ -149,6 +150,7 @@ double overestimateP(const double z, const IdList &) const {
   double invIntegOverP(const double r, const IdList & ,
 		       unsigned int PDFfactor=0) const {
     assert(PDFfactor==0);
+    return exp(r)/(1+exp(r));
   }
   //@}
 

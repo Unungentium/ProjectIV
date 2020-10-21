@@ -60,13 +60,15 @@ void QtoQBcSplitting::guesstz(Energy2 t1,unsigned int iopt,
 			   double enhance,bool ident,
 			   double detune, 
 			   Energy2 &t_main, double &z_main) {
+  Energy M = ids[0]->mass()+ids[1]->mass();
+  double a = ids[0]->mass()/M;
   unsigned int pdfopt = iopt!=1 ? 0 : pdfFactor();
   double lower = integOverP(zLimits().first ,ids,pdfopt);
   double upper = integOverP(zLimits().second,ids,pdfopt);
   // Energy2 pre = 64.*O1_*sqr(Constants::pi)/243./m_;
-
+  Energy3 psi_0= pow<3,1>(0.4*GeV);
   // todo prefactor here
-  Energy2 pre =(64*Power(Pi,2)*Power(Abs(Subscript(psi,0)(0)),2))/(27.*Power(-1 + a,2)*M*Power(-(Power(a,2)*Power(M,2)) + Power(q,2),2)) ;
+  Energy2 pre =(64*sqr(Constants::pi)*psi_0)/(27.*sqr(-1 + a)*M);
   
   Energy2 c = (upper - lower) * colourFactor() * pre *
     sqr(alpha()->overestimateValue()/Constants::twopi) * enhance * detune;

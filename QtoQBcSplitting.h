@@ -66,7 +66,7 @@ public:
    * - 0 is final-state
    * - 1 is initial-state for the hard process
    * - 2 is initial-state for particle decays
-   * @param t1 The starting valoe of the scale
+   * @param t1 The starting value of the scale
    * @param enhance The radiation enhancement factor
    * @param identical Whether or not the outgoing particles are identical
    * @param t_main rerurns the value of the energy fraction for the veto algorithm
@@ -92,7 +92,7 @@ public:
    (sqr(2 + a*(-1 + z) - z)*z)/sqr(1 + a*(-1 + z)) - 
    (sqr(M)*(-5 + 3*z + 2*sqr(a)*(-1 + sqr(z)) - 
         a*(-7 + 2*z + sqr(z))))/
-	  (t*(1 + a*(-1 + z))));
+	  (t*(1 + a*(-1 + z)))*z*(1-z));
   }
 
   /**
@@ -101,8 +101,11 @@ public:
    * @param z   The energy fraction.
    * @param ids The PDG codes for the particles in the splitting.
    */
-double overestimateP(const double z, const IdList &) const {
-    return 1/(z*(1-z));  }
+double overestimateP(const double z, const IdList &ids) const {
+  /*float v = 10000;*/
+  return  v/(z*(1-z));
+ 
+}
 
   /**
    * The concrete implementation of the
@@ -118,11 +121,14 @@ double overestimateP(const double z, const IdList &) const {
 		const IdList &ids , const bool, const RhoDMatrix &) const {
     Energy M = ids[0]->mass()+ids[1]->mass();
     double a = ids[0]->mass()/M;
-    return (1-z)*z*(4*(-1 + a)*a*sqr(sqr(M))/sqr(t) + 
+    double x= ((4*(-1 + a)*a*sqr(sqr(M))/sqr(t) + 
    (sqr(2 + a*(-1 + z) - z)*z)/sqr(1 + a*(-1 + z)) - 
    (sqr(M)*(-5 + 3*z + 2*sqr(a)*(-1 + sqr(z)) - 
         a*(-7 + 2*z + sqr(z))))/
-		    (t*(1 + a*(-1 + z))));
+	     (t*(1 + a*(-1 + z)))))/v;
+    if (x<1){ cout << "something" << x<<endl;}
+ 
+    return x;
   }
   
   /**
@@ -136,7 +142,7 @@ double overestimateP(const double z, const IdList &) const {
    */
   double integOverP(const double z, const IdList & ,
 		    unsigned int PDFfactor=0) const {
-    return log(z/(1-z));
+    return v*log(z/(1-z));
   }
 
   /**
@@ -150,7 +156,7 @@ double overestimateP(const double z, const IdList &) const {
   double invIntegOverP(const double r, const IdList & ,
 		       unsigned int PDFfactor=0) const {
     assert(PDFfactor==0);
-    return exp(r)/(1+exp(r));
+    return exp(r/v)/(1+exp(r/v));
   }
   //@}
 
@@ -251,6 +257,7 @@ protected:
   //@}
 
 private:
+  static const double v;
 
   /**
    * The assignment operator is private and must never be called.

@@ -103,7 +103,8 @@ public:
    */
 double overestimateP(const double z, const IdList &ids) const {
   /*float v = 10000;*/
-  return  v/(z*(1-z));
+  cout << "this is happening"; 
+ return  v/(z*(1-z));
  
 }
 

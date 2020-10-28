@@ -69,7 +69,7 @@ void QtoQBcSplitting::guesstz(Energy2 t1,unsigned int iopt,
   Energy3 psi_0= pow<3,1>(0.4*GeV);
   // todo prefactor here
   Energy2 pre =(64*sqr(Constants::pi)*psi_0)/(27.*sqr(-1 + a)*M);
-  
+  cout << "something is happening";
   Energy2 c = (upper - lower) * colourFactor() * pre *
     sqr(alpha()->overestimateValue()/Constants::twopi) * enhance * detune;
   double r = UseRandom::rnd();

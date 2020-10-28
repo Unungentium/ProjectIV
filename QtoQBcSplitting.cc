@@ -18,7 +18,7 @@
 using namespace Herwig;
 
 QtoQBcSplitting::QtoQBcSplitting() {}
-
+const double  QtoQBcSplitting::v=1.;
 QtoQBcSplitting::~QtoQBcSplitting() {}
 
 IBPtr QtoQBcSplitting::clone() const {

@@ -86,6 +86,7 @@ public:
    */
   double P(const double z, const Energy2 t,
 	   const IdList &ids , const bool, const RhoDMatrix &) const {
+    cout << "i am printing";
     Energy M = ids[0]->mass()+ids[1]->mass();
   double a = ids[0]->mass()/M;
   return (4*(-1 + a)*a*sqr(sqr(M))/sqr(t) + 
@@ -122,12 +123,12 @@ double overestimateP(const double z, const IdList &ids) const {
 		const IdList &ids , const bool, const RhoDMatrix &) const {
     Energy M = ids[0]->mass()+ids[1]->mass();
     double a = ids[0]->mass()/M;
-    double x= ((4*(-1 + a)*a*sqr(sqr(M))/sqr(t) + 
+    double x=((4*(-1 + a)*a*sqr(sqr(M))/sqr(t) + 
    (sqr(2 + a*(-1 + z) - z)*z)/sqr(1 + a*(-1 + z)) - 
    (sqr(M)*(-5 + 3*z + 2*sqr(a)*(-1 + sqr(z)) - 
         a*(-7 + 2*z + sqr(z))))/
 	     (t*(1 + a*(-1 + z)))))/v;
-    if (x<1){ cout << "something" << x<<endl;}
+    // if (x<1){ cout << "something" << x<<endl;}
  
     return x;
   }
@@ -143,6 +144,7 @@ double overestimateP(const double z, const IdList &ids) const {
    */
   double integOverP(const double z, const IdList & ,
 		    unsigned int PDFfactor=0) const {
+    // cout << "integ over P \n";
     return v*log(z/(1-z));
   }
 
@@ -156,6 +158,7 @@ double overestimateP(const double z, const IdList &ids) const {
    */ 
   double invIntegOverP(const double r, const IdList & ,
 		       unsigned int PDFfactor=0) const {
+    // cout << "inverse integ \n";
     assert(PDFfactor==0);
     return exp(r/v)/(1+exp(r/v));
   }

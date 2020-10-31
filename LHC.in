@@ -9,17 +9,17 @@ read snippets/PPCollider.in
 
 cd /Herwig/Shower
 
-create Herwig::QtoQBcSplitting QtoQBcSplittingSudakov QtoQBcSplitting.so
-set QtoQBcSplittingSudakov:Alpha AlphaQCD
-set QtoQBcSplittingSudakov:Cutoff PTCutOff
-set QtoQBcSplittingSudakov:PDFmax 2.0
-set QtoQBcSplittingSudakov:ColourStructure TripletTripletSinglet
-set QtoQBcSplittingSudakov:AngularOrdered Yes
-set QtoQBcSplittingSudakov:StrictAO Yes
-set QtoQBcSplittingSudakov:InteractionType QCD
-#set QtoQBcSplittingSudakov:O1 10.
-do SplittingGenerator:AddFinalSplitting c->b,B_c+; QtoQBcSplittingSudakov
-do SplittingGenerator:AddFinalSplitting b->c,B_c-; QtoQBcSplittingSudakov
+create Herwig::QtoQBcSplitting QtoQBcSplitting QtoQBcSplitting.so
+set QtoQBcSplitting:Alpha AlphaQCD
+set QtoQBcSplitting:Cutoff PTCutOff
+set QtoQBcSplitting:PDFmax 2.0
+set QtoQBcSplitting:ColourStructure TripletTripletSinglet
+set QtoQBcSplitting:AngularOrdered Yes
+set QtoQBcSplitting:StrictAO Yes
+set QtoQBcSplitting:InteractionType QCD
+#set QtoQBcSplitting:O1 10.
+do SplittingGenerator:AddFinalSplitting c->b,B_c+; QtoQBcSplitting
+do SplittingGenerator:AddFinalSplitting b->c,B_c-; QtoQBcSplitting
 
 ##################################################
 # Technical parameters for this run
@@ -34,7 +34,9 @@ cd /Herwig/Generators
 ## sqrt(s) = 13000 GeV ##
 ########################
 set EventGenerator:EventHandler:LuminosityFunction:Energy 13000.0
-
+set /Herwig/Shower/ShowerHandler:MPIHandler NULL
+set EventGenerator:EventHandler:HadronizationHandler NULL
+set /Herwig/Analysis/Basics:CheckQuark 0
 ##################################################
 # Matrix Elements for hadron-hadron collisions 
 # (by default only gamma/Z switched on)

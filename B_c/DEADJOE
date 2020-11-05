@@ -1,0 +1,12 @@
+
+*** These modified files were found in JOE when it aborted on Wed Nov  4 14:05:10 2020
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/mt/home/fpauwels/Desktop/Project_Repo/B_c/Makefile
+
+*** File '* Startup Log *'
+Processing '/etc/joe/jmacsrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/jmacsrc

@@ -88,13 +88,13 @@ public:
 	   const IdList &ids , const bool, const RhoDMatrix &) const {
     //cout << "i am printing";
     Energy M = ids[0]->mass()+ids[1]->mass();
-  double a = ids[0]->mass()/M;
-  return (12*(-1 + a)*a*sqr(sqr(M)))/sqr(t) + 
-   (sqr(M)*(6 + a*(-4 + 4*(1 - z) - 3*sqr(1 - z)) - 9*(1 - z) + 
-        2*sqr(a)*(1 - z)*(3 - z)))/
-    ((-(t)*(-1 + a*(1 - z)))) + 
-    ((1 - 2*(-1 + a)*(1 - z) + (3 - 2*a + sqr(a))*sqr(1 - z))*z)/
-     sqr(-1 + a*(1 - z));
+    double a = ids[0]->mass()/M;
+    return (12*(-1 + a)*a*sqr(sqr(M)))/sqr(t) + 
+      (sqr(M)*(6 + a*(-4 + 4*(1 - z) - 3*sqr(1 - z)) - 9*(1 - z) + 
+	       2*sqr(a)*(1 - z)*(3 - z)))/
+      ((-(t)*(-1 + a*(1 - z)))) + 
+      ((1 - 2*(-1 + a)*(1 - z) + (3 - 2*a + sqr(a))*sqr(1 - z))*z)/
+      sqr(-1 + a*(1 - z));
   }
 
   /**
@@ -103,13 +103,13 @@ public:
    * @param z   The energy fraction.
    * @param ids The PDG codes for the particles in the splitting.
    */
-double overestimateP(const double z, const IdList &ids) const {
-  /*float v = 10000;*/
-  cout << "this is happening"; 
- return  v/(z*(1-z));
- 
-}
-
+  double overestimateP(const double z, const IdList &ids) const {
+    /*float v = 10000;*/
+    cout << "this is happening"; 
+    return  v/(z*(1-z));
+    
+  }
+  
   /**
    * The concrete implementation of the
    * the ratio of the splitting function to the overestimate, i.e.
@@ -127,8 +127,8 @@ double overestimateP(const double z, const IdList &ids) const {
     double x= (1 - z)*z*((12*(-1 + a)*a*sqr(sqr(M))))/sqr(t) - ((-1 + z)*(1 - 2*(-1 + a)*z + (3 - 2*a + sqr(a))*sqr(z)))/sqr(-1 + a*z) + 
       (sqr(M)*(6 - 9*z + 2*sqr(a)*z*(2 + z) + a*(-4 + 4*z - 3*sqr(z))))/(t*(-1 + a*z));
     // if (x<1){ cout << "something" << x<<endl;}
- 
-  return x;
+    
+    return x;
   }
   
   /**
@@ -207,11 +207,19 @@ double overestimateP(const double z, const IdList &ids) const {
     // calculate the kernal
     DecayMEPtr kernal(new_ptr(TwoBodyDecayMatrixElement(PDT::Spin1Half,
     							PDT::Spin1Half,
-    							PDT::Spin0)));
+    							PDT::Spin1)));
     (*kernal)(0,0,0) = 1.;
     (*kernal)(1,1,0) = 1.;
     (*kernal)(0,1,0) = 1.;
     (*kernal)(1,0,0) = 1.;
+    (*kernal)(0,0,1) = 1.;
+    (*kernal)(1,1,1) = 1.;
+    (*kernal)(0,1,1) = 1.;
+    (*kernal)(1,0,1) = 1.;
+    (*kernal)(0,0,2) = 1.;
+    (*kernal)(1,1,2) = 1.;
+    (*kernal)(0,1,2) = 1.;
+    (*kernal)(1,0,2) = 1.;
     return kernal;
   }
   

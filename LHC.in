@@ -18,8 +18,8 @@ set Q2QBcstarSplitting:AngularOrdered Yes
 set Q2QBcstarSplitting:StrictAO Yes
 set Q2QBcstarSplitting:InteractionType QCD
 #set Q2QBcstarSplitting:O1 10.
-do SplittingGenerator:AddFinalSplitting c->b,B_c+; Q2QBcstarSplitting
-do SplittingGenerator:AddFinalSplitting b->c,B_c-; Q2QBcstarSplitting
+do SplittingGenerator:AddFinalSplitting c->b,B_c*+; Q2QBcstarSplitting
+do SplittingGenerator:AddFinalSplitting b->c,B_c*-; Q2QBcstarSplitting
 
 ##################################################
 # Technical parameters for this run

@@ -1,0 +1,11 @@
+#BEGIN PLOT /MC_BCstar/h_pT
+XLabel=$p_\perp$[GeV]
+YLabel=$\text{d}\sigma/\text{d}p_\perp$[pb/Gev]
+#END PLOT
+
+#BEGIN PLOT /MC_BCstar/h_rap
+XLabel=$y$
+YLabel=$\text{d}\sigma/\text{d}y$[pb]
+LogY=0
+#END PLOT
+	

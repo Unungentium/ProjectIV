@@ -1,0 +1,83 @@
+// -*- C++ -*-
+#include "Rivet/Analysis.hh"
+#include "Rivet/Projections/UnstableParticles.hh"
+
+namespace Rivet {
+
+
+  /// @brief Simply eta_c analysis
+  class MC_BC_comprison : public Analysis {
+  public:
+
+    /// Constructor
+    DEFAULT_RIVET_ANALYSIS_CTOR(MC_BC_comparison);
+
+
+    /// @name Analysis methods
+    ///@{
+
+    /// Book histograms and initialise projections before the run
+    void init() {
+
+      declare(UnstableParticles(), "UFS");
+      const FinalState fs(Cuts::eta<4.5&&Cuts::eta>2.5);
+      const FinalState fs(Cuts::pT<25&&Cuts::pT>4);
+
+      // Book histograms
+      book(_h_pT_Bc ,"h_pT" ,100,  0.,100.);
+      book(_h_rap_Bc,"h_rap",100,-10.,10. );
+      book(_h_pT_B ,"h_pT_B", 100, 0.,100.);
+      book(_h_rap_B,"h_rap_B",100,0.,100.);
+    }
+
+
+    /// Perform the per-event analysis
+    void analyze(const Event& event) {
+      Particles particles = apply<UnstableFinalState>(event,"UFS").particles(Cuts::abspid==541);
+      Particles particleB = apply<UnstableFinalState>(event,"UFS").particles(Cuts::abspid==511&&Cuts::abspid==521&&Cuts::abspid==-521&&Cuts::abspid==-511);
+
+      for(auto p : particles) {
+	_h_pT_Bc ->fill(p.momentum().perp()    );
+	_h_rap_Bc->fill(p.momentum().rapidity());
+      }
+      for(auto p: particleB){
+	_h_pT_B ->fill(p.momentum().perp());
+	_h_rap_B ->fil(p.momentum().rapidity());
+
+
+    }
+    //Todo figure out how to analyse for more particles
+    /* void analyze(const Event& event) {
+      Particles particles = apply<UstableFinalState>(event,"UFS").particles(Cuts::abspid==-541);
+      for(auto p : particles) {
+	_h_pT ->fill(p.momentum().perp()    );
+	_h_rap->fill(p.momentum().rapidity());
+      }
+    }
+    */
+
+    /// Normalise histograms etc., after the run
+    void finalize() {
+
+      scale(_h_pT_Bc, crossSection()/picobarn/sumW());
+      scale(_h_rap_Bc, crossSection()/picobarn/sumW());
+      scale(_h_pT_B, crossSection()/picobarn/sumW());
+      scale(h_rap_B, crossSection()/picobarn/sumW());
+
+    }
+
+    ///@}
+
+
+    /// @name Histograms
+    ///@{
+    Histo1DPtr _h_pT_Bc,_h_rap_Bc;
+    ///@}
+
+
+  };
+
+
+  DECLARE_RIVET_PLUGIN(MC_BC_comparison);
+
+}

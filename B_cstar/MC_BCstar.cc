@@ -36,15 +36,6 @@ namespace Rivet {
 	_h_rap->fill(p.momentum().rapidity());
       }
     }
-    //Todo figure out how to analyse for more particles
-    /* void analyze(const Event& event) {
-      Particles particles = apply<UstableFinalState>(event,"UFS").particles(Cuts::abspid==-541);
-      for(auto p : particles) {
-	_h_pT ->fill(p.momentum().perp()    );
-	_h_rap->fill(p.momentum().rapidity());
-      }
-    }
-    */
 
     /// Normalise histograms etc., after the run
     void finalize() {

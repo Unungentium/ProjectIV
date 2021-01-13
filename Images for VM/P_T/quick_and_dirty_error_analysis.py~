@@ -1,0 +1,8 @@
+import numpy as np
+import sys
+
+datafile = input("which datafile?")
+
+array=np.loadtxt(datafile)
+
+print(array)

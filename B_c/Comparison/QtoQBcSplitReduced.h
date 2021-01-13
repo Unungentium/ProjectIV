@@ -217,6 +217,7 @@ double overestimateP(const double z, const IdList &ids) const {
     return kernal;
   }
   
+
 public:
 
   /** @name Functions used by the persistent I/O system. */
@@ -243,7 +244,12 @@ public:
    */
   static void Init();
 
-protected:
+protected: 
+  double alphaSVetoRatio(Energy2 pt2, double factor ) const {
+    factor *= ShowerHandler::currentHandler()->renormalizationScaleFactor();
+
+    return sqr( 0.13/alpha()->overestimateValue());
+  }
 
   /** @name Clone Methods. */
   //@{

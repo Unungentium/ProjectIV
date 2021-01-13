@@ -64,7 +64,7 @@ insert /Herwig/Analysis/Rivet:Analyses 0 MC_BC_comparison
 #insert /Herwig/Analysis/Rivet:Analyses 0 MC_BC
 #read snippets/HepMC.in
 #set /Herwig/Analysis/HepMC:PrintEvent NNN
-
+#insert /Herwig/Analysis/Rivet:Analyses 0 ATLAS_2016_I1419652
 ##################################################
 # Save run for later usage with 'Herwig run'
 ##################################################

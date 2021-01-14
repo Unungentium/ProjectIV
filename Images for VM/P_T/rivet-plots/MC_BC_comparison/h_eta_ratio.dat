@@ -1,22 +1,18 @@
 # BEGIN PLOT
-ConnectGaps=0
-LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_eta_ratio
-DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_eta_ratio
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/Images for VM/P_T/LHC.yoda/MC_BC_comparison/h_eta_ratio
+XLabel=$\eta$
+YLabel=$\frac{f_{c}}{f_{u}+f_{d}}$
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/Images for VM/P_T/LHC.yoda/MC_BC_comparison/h_eta_ratio
+Title=Production Cross section ratio $\frac{f_{c}}{f_{u}+f_{d}}$ against pseudorapidity
 Legend=1
 LogY=0
 # END PLOT
 
-# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_eta_ratio
-ConnectBins=0
-ConnectGaps=0
-ErrorBars=1
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/Images for VM/P_T/LHC.yoda/MC_BC_comparison/h_eta_ratio
 LineColor=red
 LineStyle=solid
-LogY=0
-Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_eta_ratio
+Path=//mt/home/fpauwels/Desktop/Project_Repo/Images for VM/P_T/LHC.yoda/MC_BC_comparison/h_eta_ratio
 Title=LHC
-XLabel=$\eta$
-YLabel=$\frac{f_{c}}{f_{u}+f_{d}}$
 # xlow	 xhigh	 val	 errminus	 errplus
 2.000000e+00	2.030000e+00	nan	nan	nan
 2.030000e+00	2.060000e+00	nan	nan	nan

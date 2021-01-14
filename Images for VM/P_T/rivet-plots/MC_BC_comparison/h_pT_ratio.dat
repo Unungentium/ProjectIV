@@ -1,24 +1,18 @@
 # BEGIN PLOT
-LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_pT_ratio
-DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_pT_ratio
-ConnectGaps=0
-LogY=0
-XMax=15
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/Images for VM/P_T/LHC.yoda/MC_BC_comparison/h_pT_ratio
+XLabel=$p_\perp$[GeV]
+YLabel=$\frac{f_{c}}{f_{u}+f_{d}}$
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/Images for VM/P_T/LHC.yoda/MC_BC_comparison/h_pT_ratio
+Title=Production Cross section ratio $\frac{f_{c}}{f_{u}+f_{d}}$ against transverse momentum
 Legend=1
+LogY=0
 # END PLOT
 
-# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_pT_ratio
-ConnectBins=0
-ConnectGaps=0
-ErrorBars=1
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/Images for VM/P_T/LHC.yoda/MC_BC_comparison/h_pT_ratio
 LineColor=red
 LineStyle=solid
-LogY=0
-Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_pT_ratio
+Path=//mt/home/fpauwels/Desktop/Project_Repo/Images for VM/P_T/LHC.yoda/MC_BC_comparison/h_pT_ratio
 Title=LHC
-XLabel=$p_\perp$[GeV]
-XMax=15
-YLabel=$\frac{f_{c}}{f_{u}+f_{d}}$
 # xlow	 xhigh	 val	 errminus	 errplus
 4.000000e+00	4.220000e+00	nan	nan	nan
 4.220000e+00	4.440000e+00	nan	nan	nan

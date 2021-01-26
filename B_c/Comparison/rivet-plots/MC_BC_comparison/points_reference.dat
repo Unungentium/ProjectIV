@@ -1,7 +1,7 @@
 # BEGIN PLOT
 LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/points_reference
 DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/points_reference
-XMax=15
+Title=Production Cross section ratio $\frac{f_{c}}{f_{u}+f_{d}}$ against $p_\perp, reference$
 ConnectGaps=0
 YMin=2
 Legend=1

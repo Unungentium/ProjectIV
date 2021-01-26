@@ -1,9 +1,10 @@
 # BEGIN PLOT
-ConnectGaps=0
 LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_eta_ratio
 DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_eta_ratio
-Legend=1
+Title=Production Cross section ratio $\frac{f_{c}}{f_{u}+f_{d}}$ against $\eta$
+ConnectGaps=0
 LogY=0
+Legend=1
 # END PLOT
 
 # BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c/Comparison/LHC.yoda/MC_BC_comparison/h_eta_ratio

@@ -1,10 +1,10 @@
 BEGIN YODA_HISTO1D_V2 /MC_BCstar/h_pT
 Path: /MC_BCstar/h_pT
-ScaledBy: 2.27604639805898856e+05
+ScaledBy: 2.32919241638169740e+05
 Title: 
 Type: Histo1D
 ---
-# ID	 ID	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
+# Mean: # ID	 ID	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
 Total   	Total   	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 Underflow	Underflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 Overflow	Overflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
@@ -114,11 +114,11 @@ END YODA_HISTO1D_V2
 
 BEGIN YODA_HISTO1D_V2 /MC_BCstar/h_rap
 Path: /MC_BCstar/h_rap
-ScaledBy: 2.27604639805898856e+05
+ScaledBy: 2.32919241638169740e+05
 Title: 
 Type: Histo1D
 ---
-# ID	 ID	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
+# Mean: # ID	 ID	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
 Total   	Total   	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 Underflow	Underflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 Overflow	Overflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
@@ -242,7 +242,7 @@ Title:
 Type: Scatter1D
 ---
 # xval	 xerr-	 xerr+	
-2.276046e+08	3.913158e+06	3.913158e+06
+2.329192e+08	4.050595e+06	4.050595e+06
 END YODA_SCATTER1D_V2
 
 
@@ -251,7 +251,7 @@ Path: /RAW/MC_BCstar/h_pT
 Title: 
 Type: Histo1D
 ---
-# ID	 ID	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
+# Mean: # ID	 ID	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
 Total   	Total   	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 Underflow	Underflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 Overflow	Overflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
@@ -364,7 +364,7 @@ Path: /RAW/MC_BCstar/h_rap
 Title: 
 Type: Histo1D
 ---
-# ID	 ID	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
+# Mean: # ID	 ID	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
 Total   	Total   	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 Underflow	Underflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
 Overflow	Overflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
@@ -488,6 +488,6 @@ Title:
 Type: Scatter1D
 ---
 # xval	 xerr-	 xerr+	
-2.276046e+08	3.913158e+06	3.913158e+06
+2.329192e+08	4.050595e+06	4.050595e+06
 END YODA_SCATTER1D_V2
 

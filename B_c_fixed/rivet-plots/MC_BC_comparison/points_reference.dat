@@ -1,0 +1,33 @@
+# BEGIN PLOT
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/LHC.yoda/MC_BC_comparison/points_reference
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/LHC.yoda/MC_BC_comparison/points_reference
+Title=Production Cross section ratio $\frac{f_{c}}{f_{u}+f_{d}}$ against $p_\perp, reference$
+ConnectGaps=0
+YMin=2
+Legend=1
+LogY=0
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/LHC.yoda/MC_BC_comparison/points_reference
+ConnectBins=0
+ConnectGaps=0
+ErrorBars=1
+IsRef=1
+LineColor=red
+LineStyle=solid
+LogY=0
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/LHC.yoda/MC_BC_comparison/points_reference
+Title=LHC
+XLabel=$p_\perp$[GeV]
+YLabel=$\frac{f_{c}}{f_{u}+f_{d}}*10^{-3} $
+# xlow	 xhigh	 val	 errminus	 errplus
+-1.314630e-02	1.171827e+00	3.686873e+00	9.306504e-01	9.306504e-01
+1.172583e+00	2.378343e+00	4.071877e+00	9.958545e-01	9.958545e-01
+2.367474e+00	3.573284e+00	3.875968e+00	9.602886e-01	9.602886e-01
+3.583596e+00	4.768570e+00	3.869743e+00	9.602886e-01	9.602886e-01
+4.799632e+00	5.963794e+00	3.827951e+00	9.365754e-01	9.365754e-01
+5.953501e+00	7.180074e+00	3.898790e+00	9.839967e-01	9.839967e-01
+7.189219e+00	1.076481e+01	3.317282e+00	8.120949e-01	8.120949e-01
+1.080596e+01	2.517060e+01	3.113515e+00	7.646764e-01	7.646764e-01
+# END HISTO1D
+

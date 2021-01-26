@@ -106,7 +106,7 @@ public:
   double overestimateP(const double z, const IdList &ids) const {
     /*float v = 10000;*/
     cout << "this is happening"; 
-    return  v/(z*(1-z));
+    return  v/(z);
     
   }
   
@@ -124,9 +124,9 @@ public:
 		const IdList &ids , const bool, const RhoDMatrix &) const {
     Energy M = ids[0]->mass()+ids[1]->mass();
     double a = ids[0]->mass()/M;
-    double x= (1 - z)*z*((12*(-1 + a)*a*sqr(sqr(M))))/sqr(t) - ((-1 + z)*(1 - 2*(-1 + a)*z + (3 - 2*a + sqr(a))*sqr(z)))/sqr(-1 + a*z) + 
+    double x= z*((12*(-1 + a)*a*sqr(sqr(M))))/sqr(t) - ((-1 + z)*(1 - 2*(-1 + a)*z + (3 - 2*a + sqr(a))*sqr(z)))/(sqr(-1 + a*z)) + 
       (sqr(M)*(6 - 9*z + 2*sqr(a)*z*(2 + z) + a*(-4 + 4*z - 3*sqr(z))))/(t*(-1 + a*z));
-    // if (x<1){ cout << "something" << x<<endl;}
+    if (x>1){ cout << "something" << x<<endl;}
     
     return x;
   }
@@ -143,7 +143,7 @@ public:
   double integOverP(const double z, const IdList & ,
 		    unsigned int PDFfactor=0) const {
     // cout << "integ over P \n";
-    return v*log(z/(1-z));
+    return  v*log(z);
   }
 
   /**
@@ -158,7 +158,7 @@ public:
 		       unsigned int PDFfactor=0) const {
     // cout << "inverse integ \n";
     assert(PDFfactor==0);
-    return exp(r/v)/(1+exp(r/v));
+    return exp(r);
   }
   //@}
 

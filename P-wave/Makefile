@@ -13,12 +13,12 @@
 #
 # C++ flags
 # 
-CXX = g++ -std=c++11
+CXX = /mt/home/fpauwels/Desktop/Herwig_gcc/bin/g++-herwig-8.2.0 -std=c++11
 
 CXXFLAGS = -g -W -Wall -O2 -DBOOST_UBLAS_NDEBUG
 
 # add additional package header directories here
-CPPFLAGS = -I/mt/home/fpauwels/Desktop/Project_Repo/Herwig/include -I/mt/home/fpauwels/Desktop/Project_Repo/Herwig/include -I/mt/home/fpauwels/Desktop/Project_Repo/Herwig/include
+CPPFLAGS = -I/mt/home/fpauwels/Desktop/Herwig_gcc/include -I/mt/home/fpauwels/Desktop/Herwig_gcc/include -I/mt/home/fpauwels/Desktop/Herwig_gcc/include
 
 # add additional libraries here
 LDFLAGS = 

@@ -61,14 +61,14 @@ void QtoQBcSplitPwave::guesstz(Energy2 t1,unsigned int iopt,
 			   double detune, 
 			   Energy2 &t_main, double &z_main) {
   Energy M = ids[0]->mass()+ids[1]->mass();
-  double a = ids[0]->mass()/M;
+  double a = ids[1]->mass()/M;
   unsigned int pdfopt = iopt!=1 ? 0 : pdfFactor();
   double lower = integOverP(zLimits().first ,ids,pdfopt);
   double upper = integOverP(zLimits().second,ids,pdfopt);
   // Energy2 pre = 64.*O1_*sqr(Constants::pi)/243./m_;
-  Energy3 psi_0= pow<3,1>(0.4*GeV);
+  Energy3 psi_0= pow<3,1>(0.59*GeV);
   // todo prefactor here
-  Energy2 pre =(sqr(Constants::pi)*psi_0)/(27*pow((-1 + a),4)*sqr(a)*M);
+  Energy2 pre =(8*sqr(Constants::pi)*psi_0)/(27*pow((-1 + a),2)*M);
   //Here: test if this part of the code is executing properly
   // cout << "something is happening";
   Energy2 c = (upper - lower) * colourFactor() * pre *

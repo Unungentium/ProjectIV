@@ -125,8 +125,8 @@ public:
     Energy M = ids[0]->mass()+ids[1]->mass();
     double count = 0;
     double a = ids[0]->mass()/M;
-    double x=((z*(1 - pow(z,2)))/v)*((12*(-1 + a)*a*sqr(sqr(M))))/sqr(t) - ((-1 + z)*(1 - 2*(-1 + a)*z + (3 - 2*a + sqr(a))*sqr(z)))/(sqr(-1 + a*z)) + 
-      (sqr(M)*(6 - 9*z + 2*sqr(a)*z*(2 + z) + a*(-4 + 4*z - 3*sqr(z))))/(t*(-1 + a*z));
+    double x=((z*(1 - pow(z,2)))/v)*(((12*(-1 + a)*a*sqr(sqr(M))))/sqr(t) - ((-1 + z)*(1 - 2*(-1 + a)*z + (3 - 2*a + sqr(a))*sqr(z)))/(sqr(-1 + a*z)) + 
+				     (sqr(M)*(6 - 9*z + 2*sqr(a)*z*(2 + z) + a*(-4 + 4*z - 3*sqr(z))))/(t*(-1 + a*z)));
     if (x>1){ cout << "something " << x<<endl;
     }
     

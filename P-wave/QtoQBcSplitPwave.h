@@ -88,12 +88,9 @@ public:
 	   const IdList &ids , const bool, const RhoDMatrix &) const {
     cout << "i am printing";
     Energy M = ids[0]->mass()+ids[1]->mass();
-  double a = ids[0]->mass()/M;
-  return 1/(sqr(M))(64*sqr(-1 + a)*pow(a,3)*pow<6,1>(M))/pow<3,1>(t) - 
-   (sqr(M)*(6 + a*(-12 + 8*a + 38*(1 - z) - 16*a*(1 + a)*(1 - z) - 
-           2*(-1 + a)*(-5 - 22*a + 4*sqr(a))*sqr(1 - z) + 
-		   a*(-13 + 38*a - 24*sqr(a))*pow((1 - z),3)) - 9*(1 - z)))/
-    (t*sqr(-1 + a*(1 - z))) + (-1 + (1 - z)*(-1 + a*(3 + (9 + a*(-13 - a*(-4 - z) + 2*(1 - z)) - 3*(1 - z)*sqr(1 - z)) - 3*(1 - z)*z)))/pow((-1 + a*(1 - z)),3) - (8*(-1 + a)*a*pow<4,1>(M)*(-1 + a*(6 - 10*(1 - z) + a*(-2 + (1 - z)*(3 + 2*a*(2 - z) + z)))))/(sqr(t)*(-1 + a*(1 - z)));
+    double a = ids[1]->mass()/M;
+    double x=(-96*pow(-1 + a,3)*pow(a,2)*pow<6,1>(M)*pow(a + z - a*z,4) + 16*(-1 + a)*a*pow<4,1>(M)*t*pow(a + z - a*z,3)* ((-2 + a)*a*(-5 + 4*a) - 2*(-1 + a)*(-1 + a*(-7 + 3*a))*z + pow(-1 + a,2)*(-1 + 2*a)*pow(z,2)) + 6*pow<3,1>(t)*z*(-2*pow(a,3)*(-3 + z)*pow(-1 + z,3) + pow(a,4)*pow(-1 + z,4) + pow(a,2)*pow(-1 + z,2)*(11 + 3*(-4 + z)*z) + pow(z,2)*(3 + 2*(-2 + z)*z) - 2*a*(-1 + z)*z*(5 + z*(-5 + 2*z))) -  3*pow<2,1>(M)*pow<2,1>(t)*pow(a + z - a*z,2)*(-((-3 + z)*pow(z,2)) + 8*pow(a,4)*pow(-1 + z,2)*(-4 + 3*z) - 2*a*z*(-13 + z*(11 + 4*z))- 2*pow(a,3)*(-1 + z)*(27 + z*(-48 + 29*z)) + pow(a,2)*(-25 + z*(45 + z*(-55 + 43*z)))))/(48*pow(a,4)*pow<4,1>(t)*pow(-1 + a*z,4));
+    return x;
   }
 
   /**
@@ -105,7 +102,7 @@ public:
     double overestimateP(const double z, const Energy2 t, const IdList &ids) const {
   /*float v = 10000;*/
   cout << "this is happening"; 
-  return  1/(z*(1-z));
+  return  1/(z*(1-sqr(z)));
  
 }
 
@@ -122,8 +119,13 @@ public:
   double ratioP(const double z, const Energy2 t,
 		const IdList &ids , const bool, const RhoDMatrix &) const {
     Energy M = ids[0]->mass()+ids[1]->mass();
-    double a = ids[0]->mass()/M;
-    double x=1/(sqr(M))*(64*sqr(-1 + a)*pow(a,3)*pow<6,1>(M))/pow<3,1>(t) - (sqr(M)*(6 + a*(-12 + 8*a + 38*(1 - z) - 16*a*(1 + a)*(1 - z) - 2*(-1 + a)*(-5 - 22*a + 4*sqr(a))*sqr(1 - z) + a*(-13 + 38*a - 24*sqr(a))*pow((1 - z),3)) -  9*(1 - z)))/(t*sqr(-1 + a*(1 - z))) + (-1 + (1 - z)*(-1 + a*(3 + (9 + a*(-13 - a*(-4 - z) + 2*(1 - z)) - 3*(1 - z))*sqr(1 - z)) - 3*(1 - z)*z))/pow((-1 + a*(1 - z)),3) - (8*(-1 + a)*a*pow<4,1>(M)*(1 - z)*z*(-1 + a*(6 - 10*(1 - z) + a*(-2 + (1 - z)*(3 + 2*a*(2 - z) + z)))))/(sqr(t)*(-1 + a*(1 - z)));
+    double a = ids[1]->mass()/M;
+    double x=z*(1-sqr(z))((-96*pow(-1 + a,3)*pow(a,2)*pow<6,1>(M)*pow(a + z - a*z,4) + 16*(-1 + a)*a*pow<4,1>(M)*t*pow(a + z - a*z,3)*
+      ((-2 + a)*a*(-5 + 4*a) - 2*(-1 + a)*(-1 + a*(-7 + 3*a))*z + pow(-1 + a,2)*(-1 + 2*a)*pow(z,2)) + 
+	 6*pow<3,1>(t)*z*(-2*pow(a,3)*(-3 + z)*pow(-1 + z,3) + pow(a,4)*pow(-1 + z,4) + pow(a,2)*pow(-1 + z,2)*(11 + 3*(-4 + z)*z) + 
+        pow(z,2)*(3 + 2*(-2 + z)*z) - 2*a*(-1 + z)*z*(5 + z*(-5 + 2*z))) - 
+	 3*pow<2,1>(M)*pow<2,1>(t)*pow(a + z - a*z,2)*(-((-3 + z)*pow(z,2)) + 8*pow(a,4)*pow(-1 + z,2)*(-4 + 3*z) - 2*a*z*(-13 + z*(11 + 4*z)) - 
+						       2*pow(a,3)*(-1 + z)*(27 + z*(-48 + 29*z)) + pow(a,2)*(-25 + z*(45 + z*(-55 + 43*z)))))/(48*pow(a,4)*pow<4,1>(t)*pow(-1 + a*z,4)));
     // if (x<1){ cout << "something" << x<<endl;}
  
     return x;
@@ -141,7 +143,7 @@ public:
   double integOverP(const double z, const IdList & ,
 		    unsigned int PDFfactor=0) const {
     // cout << "integ over P \n";
-    return log(z/(1-z));
+    return v*log(z/sqrt(1-sqr(z)));
   }
 
   /**
@@ -156,7 +158,7 @@ public:
 		       unsigned int PDFfactor=0) const {
     // cout << "inverse integ \n";
     assert(PDFfactor==0);
-    return exp(r/v)/(1+exp(r/v));
+    return sqrt(exp(2*r/v)/(1+exp(2*r/v)));
   }
   //@}
 

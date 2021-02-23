@@ -88,12 +88,13 @@ aa   * @param identical Whether or not the outgoing particles are identical
 	   const IdList &ids , const bool, const RhoDMatrix &) const {
     cout << "i am printing";
     Energy M = ids[0]->mass()+ids[1]->mass();
-  double a = ids[0]->mass()/M;
-  return (4*(-1 + a)*a*sqr(sqr(M))/sqr(t) + 
-   (sqr(2 + a*(-1 + z) - z)*z)/sqr(1 + a*(-1 + z)) - 
-   (sqr(M)*(-5 + 3*z + 2*sqr(a)*(-1 + sqr(z)) - 
-        a*(-7 + 2*z + sqr(z))))/
-	  (t*(1 + a*(-1 + z)))*z*(1-z));
+  double a2 = ids[0]->mass()/M;
+  return ((4*(-1 + a2)*a2*pow<4,1>(M))/
+    sqr(t) + 
+   (pow(2 + a2*(-1 + z) - z,2)*z)/pow(1 + a2*(-1 + z),2) + 
+    (pow<2,1>(M)*(-5 + 3*z + 2*pow(a2,2)*(-1 + pow(z,2)) - 
+        a2*(-7 + 2*z + pow(z,2))))/
+	  ((t)*(1 + a2*(-1 + z))));
   }
   
 
@@ -106,7 +107,7 @@ aa   * @param identical Whether or not the outgoing particles are identical
 double overestimateP(const double z, const IdList &ids) const {
   /*float v = 10000;*/
   /*cout << "this is happening";*/
-  return  v/(pow((z-1),4));
+  return  v/(z*(1-pow(z,2)));
  
 }
 
@@ -123,9 +124,13 @@ double overestimateP(const double z, const IdList &ids) const {
   double ratioP(const double z, const Energy2 t,
 		const IdList &ids , const bool, const RhoDMatrix &) const {
     Energy M = ids[0]->mass()+ids[1]->mass();
-    double a = ids[0]->mass()/M;
-    double x=pow((z-1),4)*((4*(-1 + a)*a*sqr(sqr(M)))/sqr(t) - ((-1 + z)*pow(-1 + (-1 + a)*z,2))/pow(-1 + a*z,2) + 
-       (sqr(M)*(-2 - 3*z + 2*pow(a,2)*(-2 + z)*z + a*(4 + 4*z - pow(z,2))))/(t*(-1 + a*z)))/v;
+    double a2 = ids[0]->mass()/M;
+    double x=((z*(1-pow(z,2)))/v)*((4*(-1 + a2)*a2*pow<4,1>(M))/
+    sqr(t) + 
+   (pow(2 + a2*(-1 + z) - z,2)*z)/pow(1 + a2*(-1 + z),2) + 
+    (pow<2,1>(M)*(-5 + 3*z + 2*pow(a2,2)*(-1 + pow(z,2)) - 
+        a2*(-7 + 2*z + pow(z,2))))/
+	  ((t)*(1 + a2*(-1 + z))));
     if (x>1){cerr<<"oops";}
  
     return x;
@@ -143,7 +148,7 @@ double overestimateP(const double z, const IdList &ids) const {
   double integOverP(const double z, const IdList & ,
 		    unsigned int PDFfactor=0) const {
     // cout << "integ over P \n";
-    return 1/(-3*pow(z-1,3));
+    return v*(log(z)-0.5*log(1-pow(z,2)));
   }
 
   /**
@@ -158,7 +163,7 @@ double overestimateP(const double z, const IdList &ids) const {
 		       unsigned int PDFfactor=0) const {
     // cout << "inverse integ \n";
     assert(PDFfactor==0);
-    return 1-(1/cbrt(3*r));
+    return exp(r/v)/pow(1+exp(2*r/v),0.5);
   }
   //@}
 

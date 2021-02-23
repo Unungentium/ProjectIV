@@ -88,13 +88,9 @@ public:
 	   const IdList &ids , const bool, const RhoDMatrix &) const {
     //cout << "i am printing";
     Energy M = ids[0]->mass()+ids[1]->mass();
-    double a = ids[0]->mass()/M;
-    return (12*(-1 + a)*a*sqr(sqr(M)))/sqr(t) + 
-      (sqr(M)*(6 + a*(-4 + 4*(1 - z) - 3*sqr(1 - z)) - 9*(1 - z) + 
-	       2*sqr(a)*(1 - z)*(3 - z)))/
-      ((-(t)*(-1 + a*(1 - z)))) + 
-      ((1 - 2*(-1 + a)*(1 - z) + (3 - 2*a + sqr(a))*sqr(1 - z))*z)/
-      sqr(-1 + a*(1 - z));
+    double a2 = ids[0]->mass()/M;
+    return (12*(-1 + a2)*a2*pow<4,1>(M))/sqr(t)+ ((pow(2 + a2*(-1 + z) - z,2) + 2*pow(-1 + z,2))*z)/pow(1 + a2*(-1 + z),2)+ (pow<2,1>(M)*(-3 + 9*z + a2*(-3 + 2*z - 3*pow(z,2)) + 2*pow(a2,2)*(3 - 4*z + pow(z,2))))/
+    (t*(1 + a2*(-1 + z)));
   }
   /**
    * The concrete implementation of the overestimate of the splitting function,
@@ -124,9 +120,9 @@ public:
 		const IdList &ids , const bool, const RhoDMatrix &) const {
     Energy M = ids[0]->mass()+ids[1]->mass();
     double count = 0;
-    double a = ids[0]->mass()/M;
-    double x=((z*(1 - pow(z,2)))/v)*(((12*(-1 + a)*a*sqr(sqr(M))))/sqr(t) - ((-1 + z)*(1 - 2*(-1 + a)*z + (3 - 2*a + sqr(a))*sqr(z)))/(sqr(-1 + a*z)) + 
-				     (sqr(M)*(6 - 9*z + 2*sqr(a)*z*(2 + z) + a*(-4 + 4*z - 3*sqr(z))))/(t*(-1 + a*z)));
+    double a2 = ids[0]->mass()/M;
+    double x=((z*(1 - pow(z,2)))/v)*((12*(-1 + a2)*a2*pow<4,1>(M))/sqr(t)+ ((pow(2 + a2*(-1 + z) - z,2) + 2*pow(-1 + z,2))*z)/pow(1 + a2*(-1 + z),2)+ (pow<2,1>(M)*(-3 + 9*z + a2*(-3 + 2*z - 3*pow(z,2)) + 2*pow(a2,2)*(3 - 4*z + pow(z,2))))/
+				     (t*(1 + a2*(-1 + z))));
     if (x>1){ cout << "something " << x<<endl;
     }
     
@@ -252,6 +248,10 @@ public:
   static void Init();
 
 protected:
+  double alphaSVetoRatio(Energy2 pt2, double factor) const {
+    factor *= ShowerHandler::currentHandler()->renormalizationScaleFactor();
+    return pow(alpha()->ratio(pt2, factor), 2);
+  }
 
   /** @name Clone Methods. */
   //@{

@@ -1,0 +1,6 @@
+!here
+
+analysis of the simulation when compared to the data from Aaij et al. 
+16/02/2020: Started using Cornell potential to see changes. Previous LHC files stored under "/logarithmic"
+23/02/20:
+Note that the LHC10mill file has the energy scaling set to zero, everywhere else it is 100

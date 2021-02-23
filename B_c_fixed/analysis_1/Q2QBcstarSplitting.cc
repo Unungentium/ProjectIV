@@ -18,7 +18,7 @@
 using namespace Herwig;
 
 Q2QBcstarSplitting::Q2QBcstarSplitting() {}
-const double  Q2QBcstarSplitting::v=10000.;
+const double  Q2QBcstarSplitting::v=1.;
 Q2QBcstarSplitting::~Q2QBcstarSplitting() {}
 
 IBPtr Q2QBcstarSplitting::clone() const {
@@ -66,7 +66,7 @@ void Q2QBcstarSplitting::guesstz(Energy2 t1,unsigned int iopt,
   double lower = integOverP(zLimits().first ,ids,pdfopt);
   double upper = integOverP(zLimits().second,ids,pdfopt);
   // Energy2 pre = 64.*O1_*sqr(Constants::pi)/243./m_;
-  Energy3 psi_0= pow<3,1>(0.6*GeV);
+  Energy3 psi_0= pow<3,1>(0.994*GeV);
   // todo prefactor here
   Energy2 pre =100*(64*sqr(Constants::pi)*psi_0)/(27.*sqr(-1 + a)*M);
   //Here: test if this part of the code is executing properly

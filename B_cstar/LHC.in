@@ -58,7 +58,7 @@ cd /Herwig/Generators
 ## when running with parton shower
 ##################################################
 read snippets/Rivet.in
-insert /Herwig/Analysis/Rivet:Analyses 0 MC_BCstar
+insert /Herwig/Analysis/Rivet:Analyses 0 LHCB_2019_I1762092
 #read snippets/HepMC.in
 #set /Herwig/Analysis/HepMC:PrintEvent NNN
 

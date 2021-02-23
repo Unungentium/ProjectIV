@@ -1,24 +1,24 @@
 # BEGIN PLOT
-LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/LHC_100k_newWFO.yoda/LHCB_2019_I1762092/h_pT_B0
-DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/LHC_100k_newWFO.yoda/LHCB_2019_I1762092/h_pT_B0
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/LHC.yoda/LHCB_2019_I1762092/h_pT_B0
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/LHC.yoda/LHCB_2019_I1762092/h_pT_B0
 Legend=1
 LogY=1
 # END PLOT
 
-# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/LHC_100k_newWFO.yoda/LHCB_2019_I1762092/h_pT_B0
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/LHC.yoda/LHCB_2019_I1762092/h_pT_B0
 LineColor=red
 LineStyle=solid
-Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/LHC_100k_newWFO.yoda/LHCB_2019_I1762092/h_pT_B0
-ScaledBy=3.47861239892081812e+03
-Title=LHC_100k_newWFO
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/LHC.yoda/LHCB_2019_I1762092/h_pT_B0
+ScaledBy=6.93153521808013693e+02
+Title=LHC
 # xlow	 xhigh	 val	 errminus	 errplus
 4.000000e+00	5.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-5.000000e+00	6.000000e+00	2.382849e+06	9.104400e+04	9.104400e+04
-6.000000e+00	7.000000e+00	1.986288e+06	8.312355e+04	8.312355e+04
-7.000000e+00	8.000000e+00	2.024552e+06	8.392040e+04	8.392040e+04
-8.000000e+00	9.000000e+00	1.843665e+06	8.008367e+04	8.008367e+04
-9.000000e+00	1.000000e+01	1.794964e+06	7.901888e+04	7.901888e+04
-1.000000e+01	1.300000e+01	1.615236e+06	4.327732e+04	4.327732e+04
-1.300000e+01	2.500000e+01	4.101864e+05	1.090443e+04	1.090443e+04
+5.000000e+00	6.000000e+00	2.377517e+06	4.059537e+04	4.059537e+04
+6.000000e+00	7.000000e+00	1.988657e+06	3.712742e+04	3.712742e+04
+7.000000e+00	8.000000e+00	1.858345e+06	3.589036e+04	3.589036e+04
+8.000000e+00	9.000000e+00	1.833391e+06	3.564858e+04	3.564858e+04
+9.000000e+00	1.000000e+01	1.868049e+06	3.598395e+04	3.598395e+04
+1.000000e+01	1.300000e+01	1.499291e+06	1.861217e+04	1.861217e+04
+1.300000e+01	2.500000e+01	3.872418e+05	4.729500e+03	4.729500e+03
 # END HISTO1D
 

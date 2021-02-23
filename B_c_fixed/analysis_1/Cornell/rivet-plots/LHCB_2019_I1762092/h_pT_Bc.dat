@@ -1,0 +1,24 @@
+# BEGIN PLOT
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/Cornell/LHC2.yoda/LHCB_2019_I1762092/h_pT_Bc
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/Cornell/LHC2.yoda/LHCB_2019_I1762092/h_pT_Bc
+Legend=1
+LogY=1
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/Cornell/LHC2.yoda/LHCB_2019_I1762092/h_pT_Bc
+LineColor=red
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/analysis_1/Cornell/LHC2.yoda/LHCB_2019_I1762092/h_pT_Bc
+ScaledBy=6.94300069931695930e+02
+Title=Cornell potential
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+5.000000e+00	6.000000e+00	9.095331e+04	7.946628e+03	7.946628e+03
+6.000000e+00	7.000000e+00	1.103937e+05	8.754791e+03	8.754791e+03
+7.000000e+00	8.000000e+00	9.442481e+04	8.096861e+03	8.096861e+03
+8.000000e+00	9.000000e+00	8.053881e+04	7.477841e+03	7.477841e+03
+9.000000e+00	1.000000e+01	9.859061e+04	8.273540e+03	8.273540e+03
+1.000000e+01	1.300000e+01	6.780997e+04	3.961501e+03	3.961501e+03
+1.300000e+01	2.500000e+01	1.544818e+04	9.454129e+02	9.454129e+02
+# END HISTO1D
+

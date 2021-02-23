@@ -1,0 +1,24 @@
+# BEGIN PLOT
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_cstar/LHC.yoda/LHCB_2019_I1762092/h_pT_B0
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_cstar/LHC.yoda/LHCB_2019_I1762092/h_pT_B0
+Legend=1
+LogY=1
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_cstar/LHC.yoda/LHCB_2019_I1762092/h_pT_B0
+LineColor=red
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_cstar/LHC.yoda/LHCB_2019_I1762092/h_pT_B0
+ScaledBy=4.63813375637487388e+03
+Title=LHC
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	4.638133e+03	4.638134e+03	4.638134e+03
+5.000000e+00	6.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+6.000000e+00	7.000000e+00	4.638134e+03	4.638133e+03	4.638133e+03
+7.000000e+00	8.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+8.000000e+00	9.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+9.000000e+00	1.000000e+01	4.638135e+03	4.638134e+03	4.638134e+03
+1.000000e+01	1.300000e+01	1.546044e+03	1.546045e+03	1.546045e+03
+1.300000e+01	2.500000e+01	3.865112e+02	3.865111e+02	3.865111e+02
+# END HISTO1D
+

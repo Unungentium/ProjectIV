@@ -1,0 +1,82 @@
+# -*- ThePEG-repository -*-
+
+##################################################
+# Example generator based on LHC parameters
+# usage: Herwig read LHC.in
+##################################################
+
+read snippets/PPCollider.in
+
+cd /Herwig/Shower
+
+#create Herwig::QtoQBcSplitReduced QtoQBcSplitReduced QtoQBcSplitReduced.so
+#set QtoQBcSplitReduced:Alpha AlphaQCD
+#set QtoQBcSplitReduced:Cutoff PTCutOff
+#set QtoQBcSplitReduced:PDFmax 2.0
+#set QtoQBcSplitReduced:ColourStructure TripletTripletSinglet
+#set QtoQBcSplitReduced:AngularOrdered Yes
+#set QtoQBcSplitReduced:StrictAO Yes
+#set QtoQBcSplitReduced:InteractionType QCD
+#set QtoQBcSplitReduced:O1 10.
+#do SplittingGenerator:AddFinalSplitting c->b,B_c+; QtoQBcSplitReduced
+#do SplittingGenerator:AddFinalSplitting b->c,B_c-; QtoQBcSplitReduced
+create Herwig::Q2QBcstarSplitting Q2QBcstarSplitting Q2QBcstarSplitting.so
+set Q2QBcstarSplitting:Alpha AlphaQCD
+set Q2QBcstarSplitting:Cutoff PTCutOff
+set Q2QBcstarSplitting:PDFmax 2.0
+set Q2QBcstarSplitting:ColourStructure TripletTripletSinglet
+set Q2QBcstarSplitting:AngularOrdered Yes
+set Q2QBcstarSplitting:StrictAO Yes
+set Q2QBcstarSplitting:InteractionType QCD
+#set Q2QBcstarSplitting:O1 10.
+do SplittingGenerator:AddFinalSplitting c->b,B_c*+; Q2QBcstarSplitting
+do SplittingGenerator:AddFinalSplitting b->c,B_c*-; Q2QBcstarSplitting
+
+##################################################
+# Technical parameters for this run
+##################################################
+cd /Herwig/Generators
+
+##################################################
+# LHC physics parameters (override defaults here) 
+##################################################
+
+########################
+## sqrt(s) = 13000 GeV ##
+########################
+set EventGenerator:EventHandler:LuminosityFunction:Energy 13000.0
+#set /Herwig/Shower/ShowerHandler:MPIHandler NULL
+#set EventGenerator:EventHandler:HadronizationHandler NULL
+set /Herwig/Analysis/Basics:CheckQuark 0
+set /Herwig/Cuts/JetKtCut:MinKT 10
+##################################################
+# Matrix Elements for hadron-hadron collisions 
+# (by default only gamma/Z switched on)
+##################################################
+cd /Herwig/MatrixElements/
+
+#
+#  Electroweak boson W/Z processes
+#
+# Drell-Yan Z/gamma
+insert SubProcess:MatrixElements[0] MEHeavyQuark
+set MEHeavyQuark:QuarkType Charm
+cp MEHeavyQuark MEHeavyQuark2
+set MEHeavyQuark2:QuarkType Bottom
+insert SubProcess:MatrixElements[0] MEHeavyQuark2
+cd /Herwig/Generators
+
+##################################################
+## prepare for Rivet analysis or HepMC output
+## when running with parton shower
+##################################################
+read snippets/Rivet.in
+insert /Herwig/Analysis/Rivet:Analyses 0 LHCB_2019_I1762092
+#insert /Herwig/Analysis/Rivet:Analyses 0 MC_BC
+#read snippets/HepMC.in
+#set /Herwig/Analysis/HepMC:PrintEvent NNN
+
+##################################################
+# Save run for later usage with 'Herwig run'
+##################################################
+saverun LHC EventGenerator

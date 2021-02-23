@@ -7,7 +7,11 @@ Run name: \textbf{LHC}:\\
 This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
 \begin{itemize}
 \item The Shower evolution was performed using an algorithm described in \cite{Marchesini:1983bm,Marchesini:1987cf,Gieseke:2003rz,Bahr:2008pv}.
+\item Decays in Herwig include full spin correlations, based on \cite{Richardson:2001df}.
+\item The form factors of \cite{Kiselev:2002vz} for the decay of the $B_c$ meson were used.
+\item The hadronization used the selection algorithm described in \cite{Kupco:1998fx}.
 \item The weak decay of baryons containing a heavy quark used form factors from \cite{Cheng:1995fe,Cheng:1996cs}.
+\item Some decays used the Fortran HERWIG decay algorithm \cite{Corcella:2000bw}.
 \end{itemize}
 
 \begin{thebibliography}{99}
@@ -40,6 +44,23 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
   [arXiv:hep-ph/0310083].
   %%CITATION = JHEPA,0312,045;%%
 
+%\cite{Richardson:2001df}
+\bibitem{Richardson:2001df}
+  P.~Richardson,
+  ``Spin correlations in Monte Carlo simulations,''
+  JHEP {\bf 0111}, 029 (2001)
+  [arXiv:hep-ph/0110108].
+  %%CITATION = JHEPA,0111,029;%%
+
+\bibitem{Kiselev:2002vz} V.~V.~Kiselev, arXiv:hep-ph/0211021.
+%%CITATION = HEP-PH/0211021;%%
+%\cite{Kupco:1998fx}
+\bibitem{Kupco:1998fx}
+  A.~Kupco,
+  ``Cluster hadronization in HERWIG 5.9,''
+  arXiv:hep-ph/9906412.
+  %%CITATION = HEP-PH/9906412;%%
+
 %\cite{Cheng:1995fe}
 \bibitem{Cheng:1995fe}
   H.~Y.~Cheng and B.~Tseng,
@@ -55,6 +76,15 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
   Phys.\ Rev.\  D {\bf 56} (1997) 2799
   [arXiv:hep-ph/9612223].
   %%CITATION = PHRVA,D56,2799;%%
+
+%\cite{Corcella:2000bw}
+\bibitem{Corcella:2000bw}
+  G.~Corcella {\it et al.},
+  %``HERWIG 6.5: an event generator for Hadron Emission Reactions With
+  %Interfering Gluons (including supersymmetric processes),''
+  JHEP {\bf 0101} (2001) 010
+  [arXiv:hep-ph/0011363].
+  %%CITATION = JHEPA,0101,010;%%
 
 \end{thebibliography}
 \end{document}

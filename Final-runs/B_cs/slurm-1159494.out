@@ -1,0 +1,778 @@
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000
+Charge imbalance by 6in event 53
+event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000
+Charge imbalance by -6in event 1881
+event>     2000  1000000
+Charge imbalance by 6in event 4688
+event>     5000  1000000
+Charge imbalance by -6in event 5520
+
+Charge imbalance by -6in event 6798
+
+Charge imbalance by 6in event 7621
+event>    10000  1000000
+Charge imbalance by -6in event 10551
+
+Charge imbalance by 6in event 11060
+
+Charge imbalance by -6in event 11106
+
+Charge imbalance by 6in event 12586
+
+Charge imbalance by 6in event 13538
+
+Charge imbalance by 6in event 18682
+event>    20000  1000000
+Charge imbalance by -6in event 26710
+
+Charge imbalance by 6in event 27479
+event>    30000  1000000
+Charge imbalance by 6in event 31487
+
+Charge imbalance by -6in event 33838
+
+Charge imbalance by -6in event 33859
+
+Charge imbalance by 6in event 36428
+
+Charge imbalance by -6in event 39836
+event>    40000  1000000
+Charge imbalance by 6in event 41873
+
+Charge imbalance by -6in event 46774
+
+Charge imbalance by -6in event 47043
+
+Charge imbalance by -6in event 49538
+event>    50000  1000000
+Charge imbalance by -6in event 54495
+
+Charge imbalance by -6in event 56148
+
+Charge imbalance by 6in event 57217
+
+Charge imbalance by -6in event 58848
+event>    60000  1000000
+Charge imbalance by 6in event 63061
+event>    70000  1000000
+Charge imbalance by -6in event 74971
+
+Charge imbalance by -6in event 75494
+
+Charge imbalance by 6in event 75526
+
+Charge imbalance by 6in event 75565
+
+Charge imbalance by -6in event 76095
+
+Charge imbalance by -6in event 79537
+event>    80000  1000000
+Charge imbalance by 6in event 80252
+
+Charge imbalance by -6in event 82853
+
+Charge imbalance by -6in event 84284
+event>    90000  1000000
+Charge imbalance by -6in event 90358
+
+Charge imbalance by 6in event 93457
+
+Charge imbalance by -6in event 94476
+
+Charge imbalance by -6in event 98111
+
+Charge imbalance by -6in event 98588
+event>   100000  1000000
+Charge imbalance by -6in event 100059
+
+Charge imbalance by 6in event 100858
+
+Charge imbalance by 6in event 101832
+
+Charge imbalance by -6in event 103956
+
+Charge imbalance by -6in event 106109
+
+Charge imbalance by -6in event 106676
+
+Charge imbalance by -6in event 106847
+
+Charge imbalance by 6in event 107991
+
+Charge imbalance by 6in event 109027
+event>   110000  1000000
+Charge imbalance by 6in event 110359
+
+Charge imbalance by 6in event 115329
+
+Charge imbalance by -6in event 116179
+
+Charge imbalance by 6in event 118670
+
+Charge imbalance by 6in event 118698
+
+Charge imbalance by 6in event 119104
+event>   120000  1000000
+Charge imbalance by 6in event 126908
+event>   130000  1000000
+Charge imbalance by 6in event 132373
+
+Charge imbalance by 6in event 135338
+event>   140000  1000000
+Charge imbalance by -6in event 145559
+
+Charge imbalance by 6in event 147876
+
+Charge imbalance by 6in event 147929
+event>   150000  1000000
+Charge imbalance by -6in event 151057
+
+Charge imbalance by -6in event 153089
+
+Charge imbalance by -6in event 159117
+
+Charge imbalance by 6in event 159823
+event>   160000  1000000
+Charge imbalance by -6in event 160696
+
+Charge imbalance by 6in event 164631
+
+Charge imbalance by 6in event 166824
+
+Charge imbalance by -6in event 167744
+
+Charge imbalance by 6in event 168329
+event>   170000  1000000
+Charge imbalance by -6in event 170178
+
+Charge imbalance by -6in event 173619
+
+Charge imbalance by 6in event 174677
+
+Charge imbalance by 6in event 175584
+
+Charge imbalance by -6in event 177037
+
+Charge imbalance by 6in event 177388
+event>   180000  1000000
+Charge imbalance by -6in event 180321
+
+Charge imbalance by -6in event 182044
+
+Charge imbalance by 6in event 182307
+
+Charge imbalance by -6in event 185499
+
+Charge imbalance by 6in event 186101
+
+Charge imbalance by -6in event 188058
+
+Charge imbalance by 6in event 189624
+event>   190000  1000000
+Charge imbalance by -6in event 190087
+
+Charge imbalance by -6in event 194709
+
+Charge imbalance by 6in event 196189
+event>   200000  1000000
+Charge imbalance by 6in event 202348
+
+Charge imbalance by -6in event 205162
+event>   210000  1000000
+Charge imbalance by 6in event 210457
+
+Charge imbalance by -6in event 210522
+
+Charge imbalance by 6in event 211042
+
+Charge imbalance by -6in event 213590
+
+Charge imbalance by 6in event 214146
+
+Charge imbalance by -6in event 217405
+event>   220000  1000000
+Charge imbalance by -6in event 220422
+
+Charge imbalance by -6in event 221561
+
+Charge imbalance by -6in event 225248
+
+Charge imbalance by 6in event 227143
+event>   230000  1000000
+Charge imbalance by 6in event 236132
+
+Charge imbalance by -6in event 237164
+
+Charge imbalance by 6in event 238882
+
+Charge imbalance by 6in event 239856
+event>   240000  1000000
+Charge imbalance by -6in event 241519
+
+Charge imbalance by 6in event 243922
+
+Charge imbalance by -6in event 245109
+
+Charge imbalance by -6in event 249449
+
+Charge imbalance by 6in event 249839
+event>   250000  1000000
+Charge imbalance by -6in event 250934
+
+Charge imbalance by 6in event 254256
+
+Charge imbalance by -6in event 258389
+
+Charge imbalance by 6in event 258676
+event>   260000  1000000
+Charge imbalance by 6in event 264622
+
+Charge imbalance by 6in event 264969
+
+Charge imbalance by 6in event 265202
+event>   270000  1000000
+Charge imbalance by -6in event 274410
+
+Charge imbalance by 6in event 275774
+event>   280000  1000000
+Charge imbalance by 6in event 280498
+
+Charge imbalance by -6in event 280989
+
+Charge imbalance by 6in event 281605
+
+Charge imbalance by 6in event 283369
+
+Charge imbalance by -6in event 283654
+
+Charge imbalance by -6in event 284357
+event>   290000  1000000
+Charge imbalance by -6in event 290554
+
+Charge imbalance by 6in event 290879
+
+Charge imbalance by -6in event 294088
+event>   300000  1000000
+Charge imbalance by 6in event 302080
+
+Charge imbalance by 6in event 303068
+
+Charge imbalance by 6in event 305042
+
+Charge imbalance by -6in event 308943
+event>   310000  1000000
+Charge imbalance by 6in event 313032
+
+Charge imbalance by -6in event 318290
+event>   320000  1000000
+Charge imbalance by 6in event 328824
+event>   330000  1000000
+Charge imbalance by 6in event 332629
+
+Charge imbalance by -6in event 334656
+
+Charge imbalance by 6in event 338001
+
+Charge imbalance by -6in event 338224
+event>   340000  1000000event>   350000  1000000
+Charge imbalance by 6in event 350678
+
+Charge imbalance by 6in event 357839
+
+Charge imbalance by 6in event 358603
+event>   360000  1000000
+Charge imbalance by -6in event 362165
+
+Charge imbalance by 6in event 362536
+
+Charge imbalance by 6in event 363645
+
+Charge imbalance by 6in event 368605
+event>   370000  1000000
+Charge imbalance by 6in event 374678
+
+Charge imbalance by -6in event 374911
+
+Charge imbalance by 6in event 377556
+event>   380000  1000000
+Charge imbalance by 6in event 382060
+
+Charge imbalance by -6in event 387767
+
+Charge imbalance by 6in event 388067
+
+Charge imbalance by -6in event 388090
+event>   390000  1000000
+Charge imbalance by 6in event 391016
+
+Charge imbalance by -6in event 391207
+
+Charge imbalance by -6in event 396382
+
+Charge imbalance by -6in event 399411
+event>   400000  1000000
+Charge imbalance by -6in event 402552
+
+Charge imbalance by -6in event 406852
+
+Charge imbalance by 6in event 409311
+event>   410000  1000000
+Charge imbalance by -6in event 413641
+
+Charge imbalance by -6in event 415440
+event>   420000  1000000
+Charge imbalance by 6in event 422855
+
+Charge imbalance by 6in event 424323
+
+Charge imbalance by 6in event 426549
+
+Charge imbalance by 6in event 427906
+
+Charge imbalance by 6in event 429587
+event>   430000  1000000
+Charge imbalance by -6in event 433842
+
+Charge imbalance by -6in event 434191
+
+Charge imbalance by -6in event 437697
+
+Charge imbalance by -6in event 438254
+
+Charge imbalance by -6in event 439937
+event>   440000  1000000
+Charge imbalance by 6in event 443325
+
+Charge imbalance by -6in event 444200
+
+Charge imbalance by 6in event 445869
+
+Charge imbalance by 6in event 449233
+event>   450000  1000000
+Charge imbalance by -6in event 450096
+
+Charge imbalance by 6in event 457810
+event>   460000  1000000
+Charge imbalance by -6in event 468180
+event>   470000  1000000
+Charge imbalance by -6in event 476479
+
+Charge imbalance by -6in event 476721
+
+Charge imbalance by 6in event 478485
+event>   480000  1000000
+Charge imbalance by 6in event 483260
+
+Charge imbalance by 6in event 489093
+event>   490000  1000000event>   500000  1000000
+Charge imbalance by -6in event 506373
+
+Charge imbalance by -6in event 507358
+
+Charge imbalance by -6in event 508619
+event>   510000  1000000
+Charge imbalance by -6in event 511745
+
+Charge imbalance by 6in event 513405
+
+Charge imbalance by -6in event 518758
+event>   520000  1000000
+Charge imbalance by -6in event 520126
+
+Charge imbalance by 6in event 524715
+
+Charge imbalance by -6in event 525629
+
+Charge imbalance by -6in event 526677
+
+Charge imbalance by 6in event 527077
+
+Charge imbalance by -6in event 528304
+event>   530000  1000000
+Charge imbalance by -6in event 532352
+
+Charge imbalance by 6in event 533395
+
+Charge imbalance by 6in event 533501
+
+Charge imbalance by 6in event 534702
+event>   540000  1000000
+Charge imbalance by 6in event 540800
+
+Charge imbalance by 6in event 542232
+
+Charge imbalance by 6in event 542602
+
+Charge imbalance by 6in event 546722
+
+Charge imbalance by 6in event 548819
+event>   550000  1000000
+Charge imbalance by 6in event 552560
+
+Charge imbalance by 6in event 554248
+
+Charge imbalance by -6in event 558775
+event>   560000  1000000
+Charge imbalance by 6in event 561961
+
+Charge imbalance by -6in event 563157
+
+Charge imbalance by -6in event 565545
+
+Charge imbalance by -6in event 567700
+event>   570000  1000000
+Charge imbalance by -6in event 570114
+
+Charge imbalance by -6in event 572499
+
+Charge imbalance by -6in event 576373
+
+Charge imbalance by -6in event 576553
+
+Charge imbalance by -6in event 578620
+
+Charge imbalance by -6in event 578788
+event>   580000  1000000
+Charge imbalance by 6in event 581377
+
+Charge imbalance by 6in event 582988
+
+Charge imbalance by 6in event 587803
+
+Charge imbalance by -6in event 587925
+event>   590000  1000000
+Charge imbalance by -6in event 590370
+
+Charge imbalance by 6in event 594867
+event>   600000  1000000event>   610000  1000000
+Charge imbalance by -6in event 611078
+
+Charge imbalance by -6in event 611764
+
+Charge imbalance by 6in event 613477
+
+Charge imbalance by -6in event 614843
+
+Charge imbalance by 6in event 616210
+
+Charge imbalance by 6in event 617723
+
+Charge imbalance by 6in event 619292
+event>   620000  1000000
+Charge imbalance by -6in event 623709
+
+Charge imbalance by 6in event 625282
+
+Charge imbalance by -6in event 627716
+
+Charge imbalance by -6in event 628597
+event>   630000  1000000
+Charge imbalance by 6in event 632072
+
+Charge imbalance by -6in event 633269
+event>   640000  1000000
+Charge imbalance by 6in event 643704
+
+Charge imbalance by 6in event 644172
+
+Charge imbalance by -6in event 647881
+
+Charge imbalance by -6in event 649877
+event>   650000  1000000
+Charge imbalance by -6in event 651010
+
+Charge imbalance by -6in event 651285
+
+Charge imbalance by -6in event 652843
+
+Charge imbalance by -6in event 654975
+
+Charge imbalance by -6in event 655924
+event>   660000  1000000
+Charge imbalance by 6in event 661610
+
+Charge imbalance by -6in event 662908
+
+Charge imbalance by 6in event 662996
+
+Charge imbalance by 6in event 663250
+
+Charge imbalance by -6in event 668407
+event>   670000  1000000
+Charge imbalance by 6in event 675669
+
+Charge imbalance by -6in event 676161
+
+Charge imbalance by 6in event 676277
+
+Charge imbalance by 6in event 676785
+
+Charge imbalance by 6in event 677308
+event>   680000  1000000
+Charge imbalance by 6in event 680339
+
+Charge imbalance by 6in event 682069
+
+Charge imbalance by -6in event 686005
+
+Charge imbalance by -6in event 687458
+
+Charge imbalance by 6in event 689594
+event>   690000  1000000
+Charge imbalance by 6in event 691004
+
+Charge imbalance by -6in event 691227
+
+Charge imbalance by -6in event 694275
+
+Charge imbalance by -6in event 695064
+
+Charge imbalance by -6in event 696371
+event>   700000  1000000
+Charge imbalance by -6in event 702979
+
+Charge imbalance by 6in event 708402
+event>   710000  1000000
+Charge imbalance by -6in event 717517
+event>   720000  1000000
+Charge imbalance by -6in event 720416
+
+Charge imbalance by -6in event 722257
+
+Charge imbalance by -6in event 723980
+event>   730000  1000000
+Charge imbalance by -6in event 731569
+
+Charge imbalance by 6in event 732369
+
+Charge imbalance by -6in event 733228
+
+Charge imbalance by 6in event 733810
+
+Charge imbalance by -6in event 737556
+
+Charge imbalance by -6in event 738790
+
+Charge imbalance by -6in event 739102
+
+Charge imbalance by -6in event 739447
+event>   740000  1000000
+Charge imbalance by 6in event 740861
+
+Charge imbalance by 6in event 746597
+
+Charge imbalance by -6in event 747419
+
+Charge imbalance by 6in event 748341
+
+Charge imbalance by 6in event 749113
+event>   750000  1000000
+Charge imbalance by 6in event 751588
+
+Charge imbalance by -6in event 752564
+
+Charge imbalance by 6in event 754147
+
+Charge imbalance by 6in event 758524
+
+Charge imbalance by 6in event 759192
+event>   760000  1000000
+Charge imbalance by 6in event 760186
+
+Charge imbalance by -6in event 760432
+
+Charge imbalance by -6in event 765466
+
+Charge imbalance by -6in event 765789
+
+Charge imbalance by -6in event 766024
+
+Charge imbalance by 6in event 766627
+
+Charge imbalance by -6in event 767007
+event>   770000  1000000
+Charge imbalance by -6in event 777323
+
+Charge imbalance by 6in event 779533
+event>   780000  1000000
+Charge imbalance by -6in event 784177
+
+Charge imbalance by -6in event 784694
+event>   790000  1000000
+Charge imbalance by -6in event 790453
+
+Charge imbalance by 6in event 791929
+
+Charge imbalance by 6in event 793039
+
+Charge imbalance by 6in event 793422
+
+Charge imbalance by -6in event 793487
+
+Charge imbalance by -6in event 795234
+
+Charge imbalance by 6in event 796362
+
+Charge imbalance by -6in event 796756
+
+Charge imbalance by -6in event 798204
+
+Charge imbalance by -6in event 799221
+event>   800000  1000000
+Charge imbalance by -6in event 802526
+
+Charge imbalance by 6in event 809331
+event>   810000  1000000
+Charge imbalance by 6in event 819135
+event>   820000  1000000
+Charge imbalance by 6in event 822423
+
+Charge imbalance by -6in event 824950
+
+Charge imbalance by -6in event 827793
+event>   830000  1000000
+Charge imbalance by -6in event 830324
+
+Charge imbalance by -6in event 830580
+
+Charge imbalance by -6in event 833209
+
+Charge imbalance by 6in event 834076
+
+Charge imbalance by -6in event 838128
+event>   840000  1000000
+Charge imbalance by 6in event 841308
+
+Charge imbalance by 6in event 843298
+
+Charge imbalance by 6in event 845915
+
+Charge imbalance by 6in event 848834
+event>   850000  1000000
+Charge imbalance by 6in event 854258
+
+Charge imbalance by -6in event 857197
+
+Charge imbalance by 6in event 858719
+event>   860000  1000000
+Charge imbalance by 6in event 865956
+event>   870000  1000000
+Charge imbalance by -6in event 870671
+
+Charge imbalance by -6in event 871096
+
+Charge imbalance by 6in event 873231
+
+Charge imbalance by -6in event 873776
+
+Charge imbalance by -6in event 878264
+event>   880000  1000000
+Charge imbalance by 6in event 880108
+
+Charge imbalance by 6in event 883522
+event>   890000  1000000
+Charge imbalance by 6in event 890491
+
+Charge imbalance by -6in event 891502
+
+Charge imbalance by -6in event 891778
+
+Charge imbalance by 6in event 895984
+
+Charge imbalance by 6in event 898272
+
+Charge imbalance by 6in event 898528
+event>   900000  1000000
+Charge imbalance by -6in event 900392
+
+Charge imbalance by 6in event 901367
+
+Charge imbalance by -6in event 904500
+
+Charge imbalance by -6in event 909729
+event>   910000  1000000
+Charge imbalance by 6in event 910147
+
+Charge imbalance by -6in event 911404
+
+Charge imbalance by 6in event 913294
+
+Charge imbalance by 6in event 913902
+
+Charge imbalance by -6in event 914531
+
+Charge imbalance by 6in event 916441
+
+Charge imbalance by 6in event 918298
+
+Charge imbalance by -6in event 918922
+
+Charge imbalance by -6in event 919770
+event>   920000  1000000
+Charge imbalance by -6in event 920780
+
+Charge imbalance by 6in event 922775
+event>   930000  1000000
+Charge imbalance by 6in event 934388
+
+Charge imbalance by 6in event 936823
+
+Charge imbalance by 6in event 936879
+event>   940000  1000000
+Charge imbalance by -6in event 941548
+
+Charge imbalance by -6in event 942062
+
+Charge imbalance by -6in event 943560
+
+Charge imbalance by -6in event 944093
+
+Charge imbalance by 6in event 946193
+
+Charge imbalance by -6in event 947805
+event>   950000  1000000
+Charge imbalance by -6in event 950173
+
+Charge imbalance by -6in event 950951
+
+Charge imbalance by 6in event 951788
+
+Charge imbalance by 6in event 955717
+event>   960000  1000000event>   970000  1000000
+Charge imbalance by -6in event 974558
+
+Charge imbalance by 6in event 974687
+
+Charge imbalance by 6in event 976633
+
+Charge imbalance by -6in event 977389
+
+Charge imbalance by -6in event 977715
+
+Charge imbalance by -6in event 979854
+
+Charge imbalance by -6in event 979913
+event>   980000  1000000
+Charge imbalance by -6in event 982446
+
+Charge imbalance by -6in event 986434
+
+Charge imbalance by -6in event 989082
+event>   990000  1000000
+Charge imbalance by -6in event 990061
+
+Charge imbalance by -6in event 990337
+
+Charge imbalance by 6in event 990881
+event>   995000  1000000
+Charge imbalance by 6in event 995174
+event>   998000  1000000
+Charge imbalance by -6in event 998247
+event>   999000  1000000event>   999500  1000000event>   999800  1000000event>   999900  1000000event>   999950  1000000event>   999980  1000000event>   999990  1000000event>   999995  1000000event>   999998  1000000event>   999999  1000000event>  1000000  1000000
+
+BasicConsistency: maximum 4-momentum violation: 3.360 MeV
+
+The MCnet usage guidelines apply to Rivet: see http://www.montecarlonet.org/GUIDELINES
+Please acknowledge Rivet in results made using it, and cite https://arxiv.org/abs/1912.05451
+

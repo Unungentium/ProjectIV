@@ -1,0 +1,9 @@
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000event>     2000  1000000event>     5000  1000000event>    10000  1000000event>    20000  1000000event>    30000  1000000event>    40000  1000000event>    50000  1000000event>    60000  1000000event>    70000  1000000event>    80000  1000000event>    90000  1000000event>   100000  1000000event>   110000  1000000event>   120000  1000000event>   130000  1000000event>   140000  1000000event>   150000  1000000event>   160000  1000000
+BasicConsistency: maximum 4-momentum violation: 1.245 MeV
+
+The MCnet usage guidelines apply to Rivet: see http://www.montecarlonet.org/GUIDELINES
+Please acknowledge Rivet in results made using it, and cite https://arxiv.org/abs/1912.05451
+Herwig: ThePEG::Exception caught.
+Spins higher than 1 are not yet implemented in FS_QtildaShowerKinematics1to2::constructVertex() 
+See logfile for details.

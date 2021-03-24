@@ -1,0 +1,21 @@
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+Rivet.Analysis.Handler: WARN  Analysis 'LHCB_2019_I1762092' is unvalidated: be careful, it may be broken!
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000event>     2000  1000000something0.060
+something0.775
+event>     5000  1000000something0.124
+event>    10000  1000000something0.172
+something0.163
+something0.143
+something0.160
+something0.059
+event>    20000  1000000something0.127
+something0.121
+something0.172
+event>    30000  1000000something0.122
+something0.148
+something0.185
+something0.101
+something0.127
+event>    40000  1000000something0.157
+something0.180
+slurmstepd: error: *** JOB 1236000 ON ip3-cpu3 CANCELLED AT 2021-03-23T22:01:52 ***

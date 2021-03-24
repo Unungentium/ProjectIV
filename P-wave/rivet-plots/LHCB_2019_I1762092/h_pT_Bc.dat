@@ -1,24 +1,24 @@
 # BEGIN PLOT
-LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC-output.yoda/LHCB_2019_I1762092/h_pT_Bc
-DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC-output.yoda/LHCB_2019_I1762092/h_pT_Bc
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC_P-wave.yoda/LHCB_2019_I1762092/h_pT_Bc
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC_P-wave.yoda/LHCB_2019_I1762092/h_pT_Bc
 Legend=1
 LogY=1
 # END PLOT
 
-# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC-output.yoda/LHCB_2019_I1762092/h_pT_Bc
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC_P-wave.yoda/LHCB_2019_I1762092/h_pT_Bc
 LineColor=red
 LineStyle=solid
-Path=//mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC-output.yoda/LHCB_2019_I1762092/h_pT_Bc
-ScaledBy=3.15323900778131883e+03
-Title=LHC-output
+Path=//mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC_P-wave.yoda/LHCB_2019_I1762092/h_pT_Bc
+ScaledBy=1.92431673516820319e+03
+Title=LHC_P-wave
 # xlow	 xhigh	 val	 errminus	 errplus
-4.000000e+00	5.000000e+00	3.153239e+03	3.153239e+03	3.153239e+03
-5.000000e+00	6.000000e+00	3.153239e+03	3.153239e+03	3.153239e+03
-6.000000e+00	7.000000e+00	6.306478e+03	4.459353e+03	4.459353e+03
-7.000000e+00	8.000000e+00	6.306478e+03	4.459354e+03	4.459354e+03
-8.000000e+00	9.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-9.000000e+00	1.000000e+01	3.153239e+03	3.153239e+03	3.153239e+03
-1.000000e+01	1.300000e+01	1.051080e+03	1.051080e+03	1.051080e+03
-1.300000e+01	2.500000e+01	1.313849e+03	5.875714e+02	5.875714e+02
+4.000000e+00	5.000000e+00	1.924317e+03	1.924317e+03	1.924317e+03
+5.000000e+00	6.000000e+00	7.697267e+03	3.848634e+03	3.848634e+03
+6.000000e+00	7.000000e+00	3.848634e+03	2.721395e+03	2.721395e+03
+7.000000e+00	8.000000e+00	3.848633e+03	2.721395e+03	2.721395e+03
+8.000000e+00	9.000000e+00	3.848633e+03	2.721395e+03	2.721395e+03
+9.000000e+00	1.000000e+01	5.772950e+03	3.333014e+03	3.333014e+03
+1.000000e+01	1.300000e+01	1.924317e+03	1.111005e+03	1.111005e+03
+1.300000e+01	2.500000e+01	4.810792e+02	2.777513e+02	2.777513e+02
 # END HISTO1D
 

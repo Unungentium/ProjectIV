@@ -1,0 +1,44 @@
+/var/spool/slurmd/job1154118/slurm_script: line 2: cd: /mt/home/fpauwels/Desktop/Project_Repo/Final-runs/All: No such file or directory
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000event>     2000  1000000something0.175
+event>     5000  1000000something0.141
+event>    10000  1000000something0.171
+something0.103
+something0.172
+something0.184
+event>    20000  1000000event>    30000  1000000event>    40000  1000000something0.190
+something0.143
+event>    50000  1000000something0.864
+event>    60000  1000000something0.093
+something0.066
+event>    70000  1000000event>    80000  1000000something0.574
+event>    90000  1000000event>   100000  1000000event>   110000  1000000something0.161
+something0.133
+event>   120000  1000000event>   130000  1000000event>   140000  1000000event>   150000  1000000event>   160000  1000000event>   170000  1000000event>   180000  1000000something0.178
+something0.175
+event>   190000  1000000something0.171
+event>   200000  1000000event>   210000  1000000something0.158
+something0.048
+event>   220000  1000000something0.098
+event>   230000  1000000event>   240000  1000000something0.175
+something0.145
+event>   250000  1000000something0.179
+something0.126
+event>   260000  1000000something0.137
+something0.982
+event>   270000  1000000something0.175
+something0.020
+event>   280000  1000000event>   290000  1000000event>   300000  1000000something0.181
+event>   310000  1000000event>   320000  1000000something0.116
+event>   330000  1000000something0.149
+event>   340000  1000000something0.169
+event>   350000  1000000something0.168
+something0.132
+something0.174
+event>   360000  1000000something0.511
+something0.012
+event>   370000  1000000event>   380000  1000000something0.121
+event>   390000  1000000something0.125
+event>   400000  1000000something0.183
+event>   410000  1000000Herwig: /mt/home/fpauwels/Desktop/Herwig_gcc/include/ThePEG/EventRecord/RhoDMatrix.h:62: ThePEG::Complex ThePEG::RhoDMatrix::operator()(size_t, size_t) const: Assertion `iy < _ispin' failed.
+/var/spool/slurmd/job1154118/slurm_script: line 3: 295131 Aborted                 Herwig run LHC.run -N 1000000 --seed 13068736050

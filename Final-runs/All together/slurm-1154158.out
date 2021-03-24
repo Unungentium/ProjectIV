@@ -1,0 +1,39 @@
+/var/spool/slurmd/job1154158/slurm_script: line 2: cd: /mt/home/fpauwels/Desktop/Project_Repo/Final-runs/All: No such file or directory
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000event>     2000  1000000event>     5000  1000000something0.114
+event>    10000  1000000event>    20000  1000000something0.177
+event>    30000  1000000something0.176
+event>    40000  1000000event>    50000  1000000something0.109
+event>    60000  1000000event>    70000  1000000something0.143
+something0.159
+event>    80000  1000000something0.035
+something0.156
+event>    90000  1000000something0.039
+something0.195
+something0.088
+something0.145
+event>   100000  1000000something0.105
+something0.187
+event>   110000  1000000something0.533
+event>   120000  1000000something0.157
+something0.169
+something0.124
+event>   130000  1000000something0.177
+event>   140000  1000000something0.174
+event>   150000  1000000something0.088
+event>   160000  1000000something0.166
+something0.172
+event>   170000  1000000event>   180000  1000000event>   190000  1000000something0.157
+event>   200000  1000000event>   210000  1000000event>   220000  1000000event>   230000  1000000something0.172
+something0.181
+something0.436
+something0.101
+event>   240000  1000000something0.124
+something0.177
+something0.185
+something0.175
+something0.102
+event>   250000  1000000event>   260000  1000000event>   270000  1000000something0.156
+something0.142
+event>   280000  1000000Herwig: /mt/home/fpauwels/Desktop/Herwig_gcc/include/ThePEG/EventRecord/RhoDMatrix.h:62: ThePEG::Complex ThePEG::RhoDMatrix::operator()(size_t, size_t) const: Assertion `iy < _ispin' failed.
+/var/spool/slurmd/job1154158/slurm_script: line 3: 277481 Aborted                 Herwig run LHC.run -N 1000000 --seed 30493717450

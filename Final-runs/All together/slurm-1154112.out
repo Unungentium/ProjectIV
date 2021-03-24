@@ -1,0 +1,25 @@
+/var/spool/slurmd/job1154112/slurm_script: line 2: cd: /mt/home/fpauwels/Desktop/Project_Repo/Final-runs/All: No such file or directory
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000event>     2000  1000000something0.132
+event>     5000  1000000something0.150
+event>    10000  1000000event>    20000  1000000something0.144
+something0.276
+event>    30000  1000000something0.162
+event>    40000  1000000event>    50000  1000000event>    60000  1000000something0.135
+event>    70000  1000000event>    80000  1000000event>    90000  1000000something0.184
+event>   100000  1000000event>   110000  1000000something0.158
+event>   120000  1000000something0.191
+something0.156
+event>   130000  1000000something0.185
+event>   140000  1000000event>   150000  1000000something0.167
+event>   160000  1000000event>   170000  1000000event>   180000  1000000event>   190000  1000000something0.110
+event>   200000  1000000event>   210000  1000000something0.125
+something0.176
+event>   220000  1000000event>   230000  1000000something0.388
+event>   240000  1000000something0.125
+event>   250000  1000000something0.177
+something0.163
+event>   260000  1000000something0.144
+something0.183
+Herwig: /mt/home/fpauwels/Desktop/Herwig_gcc/include/ThePEG/EventRecord/RhoDMatrix.h:62: ThePEG::Complex ThePEG::RhoDMatrix::operator()(size_t, size_t) const: Assertion `iy < _ispin' failed.
+/var/spool/slurmd/job1154112/slurm_script: line 3: 269158 Aborted                 Herwig run LHC.run -N 1000000 --seed 10454988840

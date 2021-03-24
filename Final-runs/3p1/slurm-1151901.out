@@ -1,0 +1,20 @@
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000event>     2000  1000000event>     5000  1000000event>    10000  1000000event>    20000  1000000something0.170
+something0.181
+something0.147
+event>    30000  1000000something0.161
+event>    40000  1000000something0.177
+event>    50000  1000000something0.175
+something0.168
+event>    60000  1000000event>    70000  1000000something0.156
+event>    80000  1000000event>    90000  1000000something0.169
+event>   100000  1000000event>   110000  1000000something0.162
+something0.172
+event>   120000  1000000something0.178
+event>   130000  1000000something0.137
+event>   140000  1000000something0.161
+event>   150000  1000000event>   160000  1000000event>   170000  1000000event>   180000  1000000something0.151
+event>   190000  1000000something0.177
+something0.165
+Herwig: /mt/home/fpauwels/Desktop/Herwig_gcc/include/ThePEG/EventRecord/RhoDMatrix.h:62: ThePEG::Complex ThePEG::RhoDMatrix::operator()(size_t, size_t) const: Assertion `iy < _ispin' failed.
+/var/spool/slurmd/job1151901/slurm_script: line 3: 161664 Aborted                 Herwig run LHC.run -N 1000000 --seed 27008721170

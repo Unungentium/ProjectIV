@@ -1,0 +1,30 @@
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+Rivet.Analysis.Handler: WARN  Analysis 'LHCB_2019_I1762092' is unvalidated: be careful, it may be broken!
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000something0.133
+event>      500  1000000event>     1000  1000000event>     2000  1000000something0.136
+something0.146
+something0.801
+event>     5000  1000000something0.147
+something0.093
+something0.172
+something0.118
+event>    10000  1000000something0.185
+something0.188
+something0.126
+event>    20000  1000000something2.092
+something0.156
+something0.111
+something0.170
+something0.133
+something0.684
+something0.047
+something0.123
+event>    30000  1000000something0.174
+event>    40000  1000000something0.175
+something0.163
+slurmstepd: error: *** JOB 1236004 ON ip3-cpu3 CANCELLED AT 2021-03-23T22:01:52 ***
+
+BasicConsistency: maximum 4-momentum violation: 0.469 MeV
+
+The MCnet usage guidelines apply to Rivet: see http://www.montecarlonet.org/GUIDELINES
+Please acknowledge Rivet in results made using it, and cite https://arxiv.org/abs/1912.05451

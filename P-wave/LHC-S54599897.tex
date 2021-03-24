@@ -12,7 +12,7 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
 \item Finite width effects for the scalar $f_0$ and $a_0$ mesons follow \cite{Flatte:1976xu}.
 \item Lambda_b to Lambda_c1(*) used the formfactors from \cite{Huang:2000xw}.
 \item Spin-1/2 baryons with one heavy quark were decayed using the form factors in \cite{Singleton:1990ye}.
-\item The current for two kaons from \cite{Czyz:2010hj} was used.
+\item The K pi weak current has the form of \cite{Finkemeier:1996dh}.
 \item The decay of tau to three pions is modelled using the currents from \cite{Asner:1999kj}.
 \item The decay of the tau to four pions uses currents based on \cite{Bondar:2002mw}.
 \item The form factors from \cite{Ivanov:1996fj} were used.
@@ -27,8 +27,10 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
 \item The MAMBO algorithm of \cite{Kleiss:1991rn} was used for high multiplicity decays
 \item The decay of I=0 vector mesons to three pions via a current taking into account the rho and a possible direct term is taken from \cite{Aloisio:2003ur}.
 \item The decay of eta to two pions follows \cite{Beisert:2003zs,Gormley:1970qz,Tippens:2001fm}.
+\item The decay of the $\Omega^-$ to $\Xi^{*0}\pi^-$ was simulated using the model of \cite{Duplancic:2004dy}.
 \item The decays of $\eta,\eta'\to\pi^+\pi^-\gamma$ were simulated using the matrix elements from \cite{Venugopal:1998fq,Holstein:2001bt}
 \item The decays of $\eta,\eta'\to\pi^0\gamma\gamma$ were simulated using the matrix elements of \cite{Holstein:2001bt}
+\item The decays of onium resonances to lighter states and pion pairs were modelled using the matrix element of \cite{Brown:1975dz}. The results of \cite{Bai:1999mj} are used for $\psi'\to\psi$ and \cite{Cronin-Hennessy:2007sj} for $\Upsilon(3S)$ and $\Upsilon(2S)$ decays. The remaining parameters are choosen to approximately reproduce the distributions from \cite{Aubert:2006bm} and \cite{Adam:2005mr}.
 \item The decays of the $a_1$ were modelled using the approach of \cite{Kuhn:1990ad}.
 
 \item The non-leptonic charm decays were simulated using the KornerKramerCharmDecayerclass which implements the model of \cite{Korner:1992wi}.
@@ -107,15 +109,13 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
   Phys.\ Rev.\  D {\bf 43} (1991) 2939.
   %%CITATION = PHRVA,D43,2939;%%
 
-%\cite{Czyz:2010hj}
-\bibitem{Czyz:2010hj}
-H.~Czyz, A.~Grzelinska and J.~H.~Kuhn,
-%``Narrow resonances studies with the radiative return method,''
-Phys.\ Rev.\ D {\bf 81} (2010) 094014
-doi:10.1103/PhysRevD.81.094014
-[arXiv:1002.0279 [hep-ph]].
-%%CITATION = doi:10.1103/PhysRevD.81.094014;%%
-%28 citations counted in INSPIRE as of 30 Jul 2018
+%\cite{Finkemeier:1996dh}
+\bibitem{Finkemeier:1996dh}
+  M.~Finkemeier and E.~Mirkes,
+  %``The scalar contribution to tau --> K pi nu/tau,''
+  Z.\ Phys.\  C {\bf 72}, 619 (1996)
+  [arXiv:hep-ph/9601275].
+  %%CITATION = ZEPYA,C72,619;%%
 
   %\cite{Asner:1999kj}
 \bibitem{Asner:1999kj}
@@ -257,6 +257,11 @@ Nucl.\ Phys.\  B {\bf 385} (1992) 413.
   Phys.\ Rev.\ Lett.\  {\bf 87}, 192001 (2001).
   %%CITATION = PRLTA,87,192001;%%
 
+\bibitem{Duplancic:2004dy}
+G.~Duplancic, H.~Pasagic and J.~Trampetic,
+Phys.\ Rev.\  D {\bf 70} (2004) 077506 [arXiv:hep-ph/0405162].
+%%CITATION = PHRVA,D70,077506;%%
+
 \bibitem{Venugopal:1998fq} E.~P.~Venugopal and B.~R.~Holstein,
 Phys.\ Rev.\  D {\bf 57} (1998) 4397 [arXiv:hep-ph/9710382].
 %%CITATION = PHRVA,D57,4397;%%
@@ -268,6 +273,11 @@ Phys.\ Rev.\  D {\bf 57} (1998) 4397 [arXiv:hep-ph/9710382].
  Phys.\ Scripta {\bf T99} (2002) 55 [arXiv:hep-ph/0112150].
 %%CITATION = PHSTB,T99,55;%%
 
+\bibitem{Brown:1975dz} L.~S.~Brown and R.~N.~Cahn,Phys.\ Rev.\ Lett.\  {\bf 35} (1975) 1.%%CITATION = PRLTA,35,1;%%
+\bibitem{Bai:1999mj} J.~Z.~Bai {\it et al.}  [BES Collaboration],Phys.\ Rev.\  D {\bf 62} (2000) 032002 [arXiv:hep-ex/9909038].%%CITATION = PHRVA,D62,032002;%%
+\bibitem{Cronin-Hennessy:2007sj} D.~Cronin-Hennessy{\it et al.} [CLEO Collaboration], arXiv:0706.2317 [hep-ex].%%CITATION = ARXIV:0706.2317;%%
+\bibitem{Aubert:2006bm} B.~Aubert {\it et al.}  [BABAR Collaboration],Phys.\ Rev.\ Lett.\  {\bf 96} (2006) 232001 [arXiv:hep-ex/0604031].%%CITATION = PRLTA,96,232001;%%
+\bibitem{Adam:2005mr} N.~E.~Adam {\it et al.}  [CLEO Collaboration],Phys.\ Rev.\ Lett.\  {\bf 96} (2006) 082004 [arXiv:hep-ex/0508023].%%CITATION = PRLTA,96,082004;%%
 \bibitem{Kuhn:1990ad} J.~H.~Kuhn and A.~Santamaria,
 Z.\ Phys.\  C {\bf 48} (1990) 445.
 %%CITATION = ZEPYA,C48,445;%%

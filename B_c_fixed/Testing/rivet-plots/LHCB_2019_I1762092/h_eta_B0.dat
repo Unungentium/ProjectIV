@@ -1,0 +1,37 @@
+# BEGIN PLOT
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/h_eta_B0 //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC.yoda/LHCB_2019_I1762092/h_eta_B0
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/h_eta_B0 //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC.yoda/LHCB_2019_I1762092/h_eta_B0
+RatioPlotReference=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/h_eta_B0
+RatioPlot=1
+LogY=1
+RatioPlotYLabel=Ratio
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/h_eta_B0
+LineColor=red
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/h_eta_B0
+ScaledBy=6.94335310289357494e-02
+Title=LHC100
+# xlow	 xhigh	 val	 errminus	 errplus
+2.500000e+00	3.000000e+00	1.515741e+05	1.450815e+02	1.450815e+02
+3.000000e+00	3.500000e+00	1.241578e+05	1.313066e+02	1.313066e+02
+3.500000e+00	4.000000e+00	9.676576e+04	1.159206e+02	1.159206e+02
+4.000000e+00	4.500000e+00	7.154654e+04	9.967676e+01	9.967676e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC.yoda/LHCB_2019_I1762092/h_eta_B0
+LineColor=blue
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC.yoda/LHCB_2019_I1762092/h_eta_B0
+ScaledBy=6.94286478548871600e+01
+Title=LHC
+# xlow	 xhigh	 val	 errminus	 errplus
+2.500000e+00	3.000000e+00	1.557007e+07	4.649750e+04	4.649750e+04
+3.000000e+00	3.500000e+00	1.266087e+07	4.192915e+04	4.192915e+04
+3.500000e+00	4.000000e+00	9.985644e+06	3.723680e+04	3.723680e+04
+4.000000e+00	4.500000e+00	7.367074e+06	3.198393e+04	3.198393e+04
+# END HISTO1D
+

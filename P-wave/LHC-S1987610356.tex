@@ -10,13 +10,14 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
 \item The hadronization was performed using the cluster model of \cite{Webber:1983if}.
 \item Decays in Herwig include full spin correlations, based on \cite{Richardson:2001df}.
 \item Finite width effects for the scalar $f_0$ and $a_0$ mesons follow \cite{Flatte:1976xu}.
+\item Lambda_b to Lambda_c1(*) used the formfactors from \cite{Huang:2000xw}.
 \item Spin-1/2 baryons with one heavy quark were decayed using the form factors in \cite{Singleton:1990ye}.
+\item The OneKaonTwoPionCurrent class implements the model of \cite{Finkemeier:1995sr} for the weak current with three mesons, at least one of which is a kaon.
 \item The decay of tau to three pions is modelled using the currents from \cite{Asner:1999kj}.
 \item The decay of the tau to four pions uses currents based on \cite{Bondar:2002mw}.
 \item The form factors from \cite{Ivanov:1996fj} were used.
 \item The form factors of \cite{Kiselev:2002vz} for the decay of the $B_c$ meson were used.
 \item The hadronization used the selection algorithm described in \cite{Kupco:1998fx}.
-\item The model of \cite{Kuhn:2006nw} was used for the hadronic five pion current.
 \item The quark model calculation of \cite{Schlumpf:1994fb} was usedfor the weak decay of the light baryons
 \item The underlying event was simulated with an eikonal model for multiple partonic interactions.Details can be found in Ref.~\cite{Bahr:2008dy,Bahr:2009ek}.
 \item The weak decay current to two scalar mesons is implemented using the models of either Kuhn and Santamaria \cite{Kuhn:1990ad} or Gounaris and Sakurai \cite{Gounaris:1968mw}. The mixing parameters are taken from \cite{Asner:1999kj}, although the PDG values for the masses and widths are used, for the decay pi+/- pi0. The decay K pi is assumed to  be dominated by the lowest lying K* resonance.
@@ -91,12 +92,26 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
   Phys.\ Lett.\  B {\bf 63}, 224 (1976).
   %%CITATION = PHLTA,B63,224;%%
 
+%\cite{Huang:2000xw}
+\bibitem{Huang:2000xw}
+  M.~Q.~Huang, J.~P.~Lee, C.~Liu and H.~S.~Song,
+  %``Leading Isgur-Wise form factor of Lambda/b to Lambda/c1 transition  using
+  %QCD sum rules,''
+  Phys.\ Lett.\  B {\bf 502}, 133 (2001)
+  [arXiv:hep-ph/0012114].
+  %%CITATION = PHLTA,B502,133;%%
+
 %\cite{Singleton:1990ye}
 \bibitem{Singleton:1990ye}
   R.~L.~Singleton,
   %``Semileptonic baryon decays with a heavy quark,''
   Phys.\ Rev.\  D {\bf 43} (1991) 2939.
   %%CITATION = PHRVA,D43,2939;%%
+
+\bibitem{Finkemeier:1995sr}
+M.~Finkemeier and E.~Mirkes,
+Z.\ Phys.\  C {\bf 69} (1996) 243 [arXiv:hep-ph/9503474].
+ %%CITATION = ZEPYA,C69,243;%%
 
   %\cite{Asner:1999kj}
 \bibitem{Asner:1999kj}
@@ -133,7 +148,6 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
   arXiv:hep-ph/9906412.
   %%CITATION = HEP-PH/9906412;%%
 
-\bibitem{Kuhn:2006nw} J.~H.~Kuhn and Z.~Was, hep-ph/0602162, (2006).
 \bibitem{Schlumpf:1994fb}
 F.~Schlumpf,
 Phys.\ Rev.\  D {\bf 51} (1995) 2262 [arXiv:hep-ph/9409272].

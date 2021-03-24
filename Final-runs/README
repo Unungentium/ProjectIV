@@ -1,0 +1,7 @@
+/LHCB - contains the data and plots comparing the simulation to the LHCB paper
+primary particles - contains the simulations of primary particles and the resultant 1 1s0 state. Maybe compare it to the rough "just ground state production" to show the effects of each excited state on the meson?
+
+All together shows the sum total particle production with the Bc meson. can't use that one to compare particle by particle as this one contains all of the particles.
+
+note - need to keep track of the potentials. for now, Cornell seems to show the most promising results, though will need to find some good papers with referencing as atm i am drawing resources from like 3 papers. the paper at https://arxiv.org/pdf/1408.5563.pdf seems to have all the required states and the wave functions so will have a gander there. 
+

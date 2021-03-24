@@ -1,0 +1,8 @@
+event>     initevent>        0   100000Rivet.Analysis.Handler: INFO  Using named weights
+Rivet.Analysis.Handler: WARN  Analysis 'LHCB_2019_I1762092' is unvalidated: be careful, it may be broken!
+event>        1   100000event>        2   100000event>        5   100000event>       10   100000event>       20   100000event>       50   100000event>      100   100000event>      200   100000event>      500   100000event>     1000   100000Herwig: /mt/home/fpauwels/Desktop/Herwig_gcc/include/ThePEG/EventRecord/RhoDMatrix.h:62: ThePEG::Complex ThePEG::RhoDMatrix::operator()(size_t, size_t) const: Assertion `iy < _ispin' failed.
+/var/spool/slurmd/job1141589/slurm_script: line 3: 156149 Aborted                 Herwig run LHC.run -N 100000 --seed 37028085475
+event>     initevent>        0    10000Rivet.Analysis.Handler: INFO  Using named weights
+Rivet.Analysis.Handler: WARN  Analysis 'LHCB_2019_I1762092' is unvalidated: be careful, it may be broken!
+event>        1    10000event>        2    10000event>        5    10000event>       10    10000event>       20    10000event>       50    10000event>      100    10000event>      200    10000event>      300    10000event>      400    10000event>      500    10000event>      600    10000event>      700    10000event>      800    10000event>      900    10000event>     1000    10000event>     1100    10000event>     1200    10000Herwig: /mt/home/fpauwels/Desktop/Herwig_gcc/include/ThePEG/EventRecord/RhoDMatrix.h:62: ThePEG::Complex ThePEG::RhoDMatrix::operator()(size_t, size_t) const: Assertion `iy < _ispin' failed.
+/var/spool/slurmd/job1141589/slurm_script: line 6: 156290 Aborted                 Herwig run LHC.run -N 10000 --seed 37028085475

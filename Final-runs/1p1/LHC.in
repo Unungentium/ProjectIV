@@ -1,0 +1,71 @@
+# -*- ThePEG-repository -*-
+
+##################################################
+# Example generator based on LHC parameters
+# usage: Herwig read LHC.in
+##################################################
+
+read snippets/PPCollider.in
+
+cd /Herwig/Shower
+
+create Herwig::QtoQBcSplit1p1 QtoQBcSplit1p1 QtoQBcSplit1p1.so
+set QtoQBcSplit1p1:Alpha AlphaQCD
+set QtoQBcSplit1p1:Cutoff PTCutOff
+set QtoQBcSplit1p1:PDFmax 2.0
+set QtoQBcSplit1p1:ColourStructure TripletTripletSinglet
+set QtoQBcSplit1p1:AngularOrdered Yes
+set QtoQBcSplit1p1:StrictAO Yes
+set QtoQBcSplit1p1:InteractionType QCD
+#set QtoQBcSplit1p1:O1 10.
+do SplittingGenerator:AddFinalSplitting c->b,B_c1+; QtoQBcSplit1p1
+do SplittingGenerator:AddFinalSplitting b->c,B_c1-; QtoQBcSplit1p1
+
+##################################################
+# Technical parameters for this run
+##################################################
+cd /Herwig/Generators
+
+##################################################
+# LHC physics parameters (override defaults here) 
+##################################################
+
+########################
+## sqrt(s) = 13000 GeV ##
+########################
+set EventGenerator:EventHandler:LuminosityFunction:Energy 13000.0
+#set /Herwig/Shower/ShowerHandler:MPIHandler NULL
+#set EventGenerator:EventHandler:HadronizationHandler NULL
+set /Herwig/Analysis/Basics:CheckQuark 0
+set /Herwig/Cuts/JetKtCut:MinKT 10
+##################################################
+# Matrix Elements for hadron-hadron collisions 
+# (by default only gamma/Z switched on)
+##################################################
+cd /Herwig/MatrixElements/
+
+#
+#  Electroweak boson W/Z processes
+#
+# Drell-Yan Z/gamma
+insert SubProcess:MatrixElements[0] MEHeavyQuark
+set MEHeavyQuark:QuarkType Charm
+cp MEHeavyQuark MEHeavyQuark2
+set MEHeavyQuark2:QuarkType Bottom
+insert SubProcess:MatrixElements[0] MEHeavyQuark2
+cd /Herwig/Generators
+
+##################################################
+## prepare for Rivet analysis or HepMC output
+## when running with parton shower
+##################################################
+read snippets/Rivet.in
+insert /Herwig/Analysis/Rivet:Analyses 0 MC_BC
+#insert /Herwig/Analysis/Rivet:Analyses 0 MC_BC
+#read snippets/HepMC.in
+#set /Herwig/Analysis/HepMC:PrintEvent NNN
+#insert /Herwig/Analysis/Rivet:Analyses 0 ATLAS_2016_I1419652
+##################################################
+# Save run for later usage with 'Herwig run'
+##################################################
+saverun LHC EventGenerator

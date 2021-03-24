@@ -14,7 +14,7 @@ EvtGen:Creating generic Pythia generator
  |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.240      |  | 
  |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change: 20 Dec 2018  |  | 
  |  |   P       Y      T    H   H   I   A   A                                      |  | 
- |  |   P       Y      T    H   H  III  A   A    Now is 12 Feb 2021 at 13:19:28    |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 25 Feb 2021 at 16:33:40    |  | 
  |  |                                                                              |  | 
  |  |   Christian Bierlich;  Department of Astronomy and Theoretical Physics,      |  | 
  |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
@@ -81,7 +81,7 @@ EvtGen:Creating alias Pythia generator
  |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.240      |  | 
  |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change: 20 Dec 2018  |  | 
  |  |   P       Y      T    H   H   I   A   A                                      |  | 
- |  |   P       Y      T    H   H  III  A   A    Now is 12 Feb 2021 at 13:19:28    |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 25 Feb 2021 at 16:33:41    |  | 
  |  |                                                                              |  | 
  |  |   Christian Bierlich;  Department of Astronomy and Theoretical Physics,      |  | 
  |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
@@ -602,50 +602,45 @@ EvtGen:Warning in EvtPythiaEngine. Trying to redefine Pythia table for Xi_c+ for
  --------  PYTHIA Event Listing  (complete event)  ---------------------------------------------------------------------------------
  
     no         id  name            status     mothers   daughters     colours      p_x        p_y        p_z         e          m 
-     0         90  (system)           -11     0     0     0     0     0     0      0.000      0.000      0.000      5.280      5.280
-     1       -511  (Bbar0)             -1     0     0     2     7     0     0      0.000      0.000      0.000      5.280      5.280
-     2        411  (D+)               -91     1     0     8    11     0     0      0.174     -0.270      1.145      2.216      1.870
-     3        111  (pi0)              -91     1     0    12    13     0     0      0.151     -0.012     -0.511      0.550      0.135
-     4       -321  K-                  91     1     0     0     0     0     0      0.214     -0.142      0.126      0.571      0.494
-     5        311  (K0)               -91     1     0    14    14     0     0     -0.504      0.425     -0.564      1.000      0.498
-     6        113  (rho0)             -91     1     0    15    16     0     0     -0.013     -0.086     -0.286      0.759      0.698
-     7        111  (pi0)              -91     1     0    17    18     0     0     -0.021      0.085      0.090      0.184      0.135
-     8        211  pi+                 91     2     0     0     0     0     0      0.378     -0.103      0.929      1.018      0.140
-     9        211  pi+                 91     2     0     0     0     0     0     -0.085      0.190      0.546      0.601      0.140
-    10       -211  pi-                 91     2     0     0     0     0     0      0.016     -0.109     -0.079      0.195      0.140
-    11        111  (pi0)              -91     2     0    19    20     0     0     -0.135     -0.249     -0.251      0.402      0.135
-    12         22  gamma               91     3     0     0     0     0     0      0.113     -0.058     -0.437      0.455      0.000
-    13         22  gamma               91     3     0     0     0     0     0      0.038      0.045     -0.074      0.095      0.000
-    14        310  (K_S0)             -91     5     5    21    22     0     0     -0.504      0.425     -0.564      1.000      0.498
-    15        211  pi+                 91     6     0     0     0     0     0      0.111     -0.310     -0.300      0.467      0.140
-    16       -211  pi-                 91     6     0     0     0     0     0     -0.124      0.225      0.014      0.292      0.140
-    17         22  gamma               91     7     0     0     0     0     0     -0.073      0.077      0.074      0.129      0.000
-    18         22  gamma               91     7     0     0     0     0     0      0.052      0.008      0.016      0.055      0.000
-    19         22  gamma               91    11     0     0     0     0     0     -0.131     -0.265     -0.246      0.385      0.000
-    20         22  gamma               91    11     0     0     0     0     0     -0.004      0.016     -0.005      0.017      0.000
-    21        111  (pi0)              -91    14     0    23    24     0     0     -0.419      0.083     -0.284      0.530      0.135
-    22        111  (pi0)              -91    14     0    25    26     0     0     -0.085      0.342     -0.280      0.470      0.135
-    23         22  gamma               91    21     0     0     0     0     0     -0.394      0.095     -0.220      0.461      0.000
-    24         22  gamma               91    21     0     0     0     0     0     -0.025     -0.012     -0.063      0.069      0.000
-    25         22  gamma               91    22     0     0     0     0     0     -0.060      0.239     -0.110      0.270      0.000
-    26         22  gamma               91    22     0     0     0     0     0     -0.025      0.103     -0.170      0.200      0.000
-                                   Charge sum:  0.000           Momentum sum:      0.000     -0.000      0.000      5.280      5.280
+     0         90  (system)           -11     0     0     0     0     0     0      0.000      0.000      0.000      5.279      5.279
+     1        521  (B+)                -1     0     0     2     4     0     0      0.000      0.000      0.000      5.279      5.279
+     2       -421  (Dbar0)            -91     1     0     5     6     0     0      1.114     -0.047      1.259      2.511      1.865
+     3        213  (rho+)             -91     1     0     7     8     0     0      0.002      0.705     -0.820      1.394      0.880
+     4        111  (pi0)              -91     1     0     9    10     0     0     -1.115     -0.658     -0.439      1.374      0.135
+     5        323  (K*+)              -91     2     0    11    12     0     0      0.966      0.010      1.147      1.750      0.901
+     6       -213  (rho-)             -91     2     0    13    14     0     0      0.147     -0.057      0.112      0.761      0.736
+     7        211  pi+                 91     3     0     0     0     0     0     -0.092      0.421      0.058      0.457      0.140
+     8        111  (pi0)              -91     3     0    15    16     0     0      0.094      0.284     -0.878      0.937      0.135
+     9         22  gamma               91     4     0     0     0     0     0     -0.557     -0.399     -0.262      0.733      0.000
+    10         22  gamma               91     4     0     0     0     0     0     -0.559     -0.259     -0.178      0.641      0.000
+    11        321  K+                  91     5     0     0     0     0     0      1.017      0.105      0.903      1.450      0.494
+    12        111  (pi0)              -91     5     0    17    18     0     0     -0.050     -0.095      0.245      0.300      0.135
+    13       -211  pi-                 91     6     0     0     0     0     0     -0.169      0.195     -0.065      0.300      0.140
+    14        111  (pi0)              -91     6     0    19    20     0     0      0.316     -0.252      0.176      0.461      0.135
+    15         22  gamma               91     8     0     0     0     0     0      0.092      0.076     -0.346      0.366      0.000
+    16         22  gamma               91     8     0     0     0     0     0      0.001      0.208     -0.531      0.571      0.000
+    17         22  gamma               91    12     0     0     0     0     0      0.040     -0.055      0.140      0.156      0.000
+    18         22  gamma               91    12     0     0     0     0     0     -0.090     -0.040      0.105      0.144      0.000
+    19         22  gamma               91    14     0     0     0     0     0      0.139     -0.045      0.021      0.147      0.000
+    20         22  gamma               91    14     0     0     0     0     0      0.177     -0.207      0.155      0.314      0.000
+                                   Charge sum:  1.000           Momentum sum:     -0.000     -0.000      0.000      5.279      5.279
 
  --------  End PYTHIA Event Listing  -----------------------------------------------------------------------------------------------
  PYTHIA Warning in TauDecays::decay: unknown uncorrelated tau production, assuming unpolarized  
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 
  Pythia::next(): 1000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
 
  Pythia::next(): 2000 events have been generated 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 
  Pythia::next(): 3000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 

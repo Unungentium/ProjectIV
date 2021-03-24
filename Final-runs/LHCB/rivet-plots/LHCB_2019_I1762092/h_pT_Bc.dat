@@ -1,0 +1,24 @@
+# BEGIN PLOT
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/h_pT_Bc
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/h_pT_Bc
+Legend=1
+LogY=1
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/h_pT_Bc
+LineColor=red
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/h_pT_Bc
+ScaledBy=3.22298701996948353e+02
+Title=LHC_LHCB_fixedspin_output
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	1.076478e+05	5.890224e+03	5.890224e+03
+5.000000e+00	6.000000e+00	8.895444e+04	5.354428e+03	5.354428e+03
+6.000000e+00	7.000000e+00	5.769147e+04	4.312062e+03	4.312062e+03
+7.000000e+00	8.000000e+00	4.415492e+04	3.772409e+03	3.772409e+03
+8.000000e+00	9.000000e+00	2.868458e+04	3.040560e+03	3.040560e+03
+9.000000e+00	1.000000e+01	1.966022e+04	2.517233e+03	2.517233e+03
+1.000000e+01	1.300000e+01	1.310681e+04	1.186635e+03	1.186635e+03
+1.300000e+01	2.500000e+01	1.369769e+03	1.918061e+02	1.918061e+02
+# END HISTO1D
+

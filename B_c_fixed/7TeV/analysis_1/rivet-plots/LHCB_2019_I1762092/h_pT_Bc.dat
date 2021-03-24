@@ -1,0 +1,63 @@
+# BEGIN PLOT
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_log.yoda/LHCB_2019_I1762092/h_pT_Bc //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_power.yoda/LHCB_2019_I1762092/h_pT_Bc //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_QCD.yoda/LHCB_2019_I1762092/h_pT_Bc
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_log.yoda/LHCB_2019_I1762092/h_pT_Bc //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_power.yoda/LHCB_2019_I1762092/h_pT_Bc //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_QCD.yoda/LHCB_2019_I1762092/h_pT_Bc
+RatioPlotReference=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_log.yoda/LHCB_2019_I1762092/h_pT_Bc
+RatioPlot=1
+LogY=1
+RatioPlotYLabel=Ratio
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_log.yoda/LHCB_2019_I1762092/h_pT_Bc
+LineColor=red
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_log.yoda/LHCB_2019_I1762092/h_pT_Bc
+ScaledBy=6.94020746792876253e+02
+Title=Logarithmic potential
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	7.495424e+04	7.212475e+03	7.212475e+03
+5.000000e+00	6.000000e+00	9.299878e+04	8.033871e+03	8.033871e+03
+6.000000e+00	7.000000e+00	8.189444e+04	7.538995e+03	7.538995e+03
+7.000000e+00	8.000000e+00	7.842434e+04	7.377542e+03	7.377542e+03
+8.000000e+00	9.000000e+00	7.703630e+04	7.311962e+03	7.311962e+03
+9.000000e+00	1.000000e+01	8.050640e+04	7.474832e+03	7.474832e+03
+1.000000e+01	1.300000e+01	6.292453e+04	3.815361e+03	3.815361e+03
+1.300000e+01	2.500000e+01	1.555763e+04	9.485654e+02	9.485654e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_power.yoda/LHCB_2019_I1762092/h_pT_Bc
+LineColor=blue
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_power.yoda/LHCB_2019_I1762092/h_pT_Bc
+ScaledBy=6.92922480100829375e+02
+Title=Power-law potential
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	8.800116e+04	7.808840e+03	7.808840e+03
+5.000000e+00	6.000000e+00	9.007992e+04	7.900532e+03	7.900532e+03
+6.000000e+00	7.000000e+00	1.136393e+05	8.873738e+03	8.873738e+03
+7.000000e+00	8.000000e+00	9.285161e+04	8.021158e+03	8.021158e+03
+8.000000e+00	9.000000e+00	1.039384e+05	8.486532e+03	8.486532e+03
+9.000000e+00	1.000000e+01	9.146576e+04	7.961073e+03	7.961073e+03
+1.000000e+01	1.300000e+01	6.859933e+04	3.980536e+03	3.980536e+03
+1.300000e+01	2.500000e+01	1.628368e+04	9.696789e+02	9.696789e+02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_QCD.yoda/LHCB_2019_I1762092/h_pT_Bc
+LineColor=green
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/7TeV/analysis_1/LHC_QCD.yoda/LHCB_2019_I1762092/h_pT_Bc
+ScaledBy=6.94235244851287575e+02
+Title=QCD Potential
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	1.076065e+05	8.643159e+03	8.643159e+03
+5.000000e+00	6.000000e+00	1.131603e+05	8.863402e+03	8.863402e+03
+6.000000e+00	7.000000e+00	1.305162e+05	9.518874e+03	9.518874e+03
+7.000000e+00	8.000000e+00	1.207969e+05	9.157592e+03	9.157592e+03
+8.000000e+00	9.000000e+00	1.242681e+05	9.288234e+03	9.288234e+03
+9.000000e+00	1.000000e+01	9.788717e+04	8.243587e+03	8.243587e+03
+1.000000e+01	1.300000e+01	8.562233e+04	4.451294e+03	4.451294e+03
+1.300000e+01	2.500000e+01	1.995927e+04	1.074571e+03	1.074571e+03
+# END HISTO1D
+

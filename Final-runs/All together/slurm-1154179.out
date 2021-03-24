@@ -1,0 +1,63 @@
+/var/spool/slurmd/job1154179/slurm_script: line 2: cd: /mt/home/fpauwels/Desktop/Project_Repo/Final-runs/All: No such file or directory
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000event>     2000  1000000something0.173
+event>     5000  1000000event>    10000  1000000event>    20000  1000000something0.064
+something0.146
+event>    30000  1000000something0.181
+something0.090
+event>    40000  1000000event>    50000  1000000event>    60000  1000000something0.153
+event>    70000  1000000something0.463
+something0.178
+event>    80000  1000000event>    90000  1000000something0.156
+event>   100000  1000000something0.167
+event>   110000  1000000event>   120000  1000000something0.162
+something0.136
+something0.171
+event>   130000  1000000something0.132
+something0.169
+something0.208
+event>   140000  1000000something0.142
+event>   150000  1000000event>   160000  1000000something0.176
+event>   170000  1000000something0.181
+event>   180000  1000000something0.163
+event>   190000  1000000something0.179
+something0.173
+event>   200000  1000000event>   210000  1000000something0.183
+something0.176
+event>   220000  1000000event>   230000  1000000something0.071
+event>   240000  1000000event>   250000  1000000something0.178
+something0.225
+event>   260000  1000000event>   270000  1000000event>   280000  1000000something0.154
+event>   290000  1000000something0.089
+event>   300000  1000000something0.069
+event>   310000  1000000something0.085
+event>   320000  1000000something0.090
+event>   330000  1000000event>   340000  1000000something0.154
+event>   350000  1000000event>   360000  1000000event>   370000  1000000something0.177
+something0.211
+something0.182
+something0.183
+event>   380000  1000000something0.848
+event>   390000  1000000something0.183
+event>   400000  1000000something0.097
+something0.175
+something0.825
+event>   410000  1000000event>   420000  1000000event>   430000  1000000something0.182
+event>   440000  1000000event>   450000  1000000something0.177
+something0.159
+event>   460000  1000000something0.177
+something0.142
+event>   470000  1000000event>   480000  1000000something0.158
+event>   490000  1000000event>   500000  1000000event>   510000  1000000event>   520000  1000000something0.205
+something0.166
+event>   530000  1000000event>   540000  1000000something0.164
+event>   550000  1000000event>   560000  1000000something0.162
+event>   570000  1000000something0.128
+event>   580000  1000000
+BasicConsistency: maximum 4-momentum violation: 3.809 MeV
+
+The MCnet usage guidelines apply to Rivet: see http://www.montecarlonet.org/GUIDELINES
+Please acknowledge Rivet in results made using it, and cite https://arxiv.org/abs/1912.05451
+Herwig: ThePEG::Exception caught.
+Spins higher than 1 are not yet implemented in FS_QtildaShowerKinematics1to2::constructVertex() 
+See logfile for details.

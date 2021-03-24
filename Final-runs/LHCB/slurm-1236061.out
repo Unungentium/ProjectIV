@@ -1,0 +1,400 @@
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+Rivet.Analysis.Handler: WARN  Analysis 'LHCB_2019_I1762092' is unvalidated: be careful, it may be broken!
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000something0.169
+event>     2000  1000000event>     5000  1000000something0.179
+event>    10000  1000000something3.753
+something2.879
+event>    20000  1000000something0.599
+something0.159
+something0.022
+event>    30000  1000000something0.131
+something0.150
+something0.144
+event>    40000  1000000something0.086
+something0.180
+something0.104
+something0.175
+event>    50000  1000000something0.116
+something0.174
+something0.122
+something0.167
+event>    60000  1000000something0.150
+something0.151
+something0.924
+something0.167
+something0.176
+something0.090
+something0.166
+event>    70000  1000000something0.677
+something0.040
+something0.175
+something0.171
+something0.133
+event>    80000  1000000event>    90000  1000000something0.153
+something0.044
+something0.176
+something0.174
+event>   100000  1000000something0.091
+something0.113
+something0.172
+something0.473
+something0.185
+something0.180
+event>   110000  1000000something0.049
+something0.127
+something0.158
+event>   120000  1000000something0.084
+something0.155
+something0.151
+something0.129
+something2.967
+something0.143
+event>   130000  1000000something0.172
+something0.118
+something0.045
+something0.164
+something0.167
+event>   140000  1000000something1.123
+something0.167
+something0.111
+something2.568
+something0.147
+something0.086
+event>   150000  1000000something0.636
+something0.091
+event>   160000  1000000something0.117
+something0.093
+something0.697
+something0.116
+something0.162
+event>   170000  1000000something0.176
+something0.211
+something0.081
+something0.146
+something0.143
+something0.135
+event>   180000  1000000something0.181
+something0.115
+something0.176
+something0.180
+event>   190000  1000000something0.169
+something0.143
+event>   200000  1000000something0.175
+something0.161
+something0.175
+something0.182
+event>   210000  1000000something0.130
+something0.160
+something0.176
+something0.156
+something0.247
+event>   220000  1000000something0.120
+something0.149
+something0.171
+something0.179
+something0.102
+something0.143
+event>   230000  1000000something0.183
+something0.134
+something2.590
+something0.163
+something1.700
+event>   240000  1000000something0.151
+something0.822
+something0.126
+event>   250000  1000000something0.085
+something0.178
+something0.186
+something0.169
+event>   260000  1000000something0.037
+something0.147
+event>   270000  1000000something0.158
+something0.159
+something0.076
+something0.109
+something0.129
+something0.175
+event>   280000  1000000something0.154
+something0.085
+something0.157
+something0.177
+something0.176
+something0.175
+event>   290000  1000000something0.176
+something2.798
+something0.104
+event>   300000  1000000something0.148
+something0.172
+something0.152
+something0.179
+event>   310000  1000000something0.134
+something0.146
+something2.164
+something0.099
+event>   320000  1000000something0.061
+something0.177
+something0.155
+event>   330000  1000000something0.088
+something0.132
+something0.155
+something0.065
+something0.035
+something0.180
+something0.172
+something0.092
+something0.176
+something1.680
+event>   340000  1000000something0.079
+something0.156
+something0.083
+something0.175
+something0.152
+something0.179
+event>   350000  1000000something0.130
+something0.145
+something0.142
+event>   360000  1000000something0.147
+something0.103
+something0.158
+something0.147
+event>   370000  1000000something0.142
+something0.100
+event>   380000  1000000something0.116
+something0.173
+something2.781
+something0.178
+something0.122
+event>   390000  1000000something0.151
+something0.102
+something0.144
+something0.963
+something0.168
+something0.154
+event>   400000  1000000something0.143
+something0.085
+something3.125
+something0.165
+event>   410000  1000000something0.700
+something0.133
+something0.404
+something0.167
+event>   420000  1000000something0.146
+something0.049
+something0.107
+something0.144
+event>   430000  1000000something0.115
+something0.175
+something1.925
+something0.151
+something0.072
+something0.141
+something0.172
+event>   440000  1000000something0.178
+something0.118
+something0.118
+event>   450000  1000000something0.189
+something3.586
+something0.122
+something0.069
+event>   460000  1000000something0.559
+something0.100
+something0.156
+something3.861
+something0.142
+something0.145
+event>   470000  1000000something0.140
+something0.171
+something0.106
+something0.123
+something0.176
+event>   480000  1000000something0.161
+event>   490000  1000000something0.133
+something0.043
+something0.477
+something0.126
+event>   500000  1000000something0.160
+something0.171
+something0.176
+something0.168
+event>   510000  1000000something0.147
+something0.154
+something0.159
+something0.061
+something0.098
+something0.154
+something0.174
+something1.696
+event>   520000  1000000something0.113
+something0.178
+something0.101
+something0.110
+event>   530000  1000000something2.655
+something0.127
+something0.153
+event>   540000  1000000something0.150
+something0.181
+something0.071
+event>   550000  1000000something0.163
+something0.127
+something0.641
+something0.195
+something0.179
+event>   560000  1000000something0.150
+something0.140
+something0.171
+something0.118
+event>   570000  1000000something0.160
+something0.086
+something0.158
+something0.174
+event>   580000  1000000something0.154
+something0.146
+something0.011
+something0.148
+something3.704
+something0.142
+something0.160
+something0.088
+event>   590000  1000000something2.548
+something0.175
+something0.155
+event>   600000  1000000something0.158
+something0.189
+something0.092
+event>   610000  1000000something0.236
+something0.091
+event>   620000  1000000something0.133
+something0.068
+something0.042
+something0.182
+something0.142
+something0.176
+something0.113
+something0.179
+something0.141
+something0.151
+event>   630000  1000000something3.556
+something0.149
+event>   640000  1000000something0.080
+something0.132
+something0.162
+something0.022
+something0.166
+event>   650000  1000000something0.170
+something0.152
+something0.176
+something0.146
+something0.080
+event>   660000  1000000something1.590
+something0.145
+something0.177
+something0.130
+something0.159
+something0.168
+something0.113
+something0.164
+something0.128
+something2.164
+event>   670000  1000000something0.059
+event>   680000  1000000something0.141
+something0.112
+something0.151
+something0.166
+event>   690000  1000000something0.103
+something0.159
+event>   700000  1000000something0.176
+something0.127
+something0.176
+something0.169
+something3.267
+something0.177
+something0.144
+something0.174
+something0.193
+event>   710000  1000000something0.142
+something0.957
+something0.185
+event>   720000  1000000something0.179
+something0.112
+something0.181
+something0.125
+something2.973
+something0.032
+event>   730000  1000000something0.155
+something0.175
+something0.473
+something0.131
+something0.020
+something0.156
+something0.086
+something0.091
+something0.181
+something0.176
+event>   740000  1000000something0.163
+something0.175
+something0.142
+something0.598
+something3.777
+something0.167
+event>   750000  1000000something0.054
+something0.159
+something0.121
+something0.067
+event>   760000  1000000something0.170
+something0.082
+something0.100
+something0.062
+something0.150
+something0.130
+event>   770000  1000000something0.070
+something0.189
+event>   780000  1000000something0.351
+something0.171
+something0.165
+event>   790000  1000000something0.126
+something0.765
+something0.169
+something0.484
+event>   800000  1000000something1.395
+something0.120
+something0.880
+something0.144
+something0.041
+event>   810000  1000000something0.102
+something0.117
+event>   820000  1000000something0.127
+something0.139
+something3.713
+event>   830000  1000000something0.052
+something0.176
+event>   840000  1000000something0.150
+event>   850000  1000000something0.174
+something0.169
+something0.171
+something0.168
+event>   860000  1000000something0.126
+something0.192
+something0.175
+event>   870000  1000000something0.122
+something0.132
+event>   880000  1000000something3.667
+something0.184
+something0.153
+something0.075
+something0.145
+event>   890000  1000000something0.159
+something0.166
+something0.105
+event>   900000  1000000something0.149
+something0.141
+something0.171
+something0.177
+something0.109
+something0.170
+event>   910000  1000000something0.146
+something0.651
+event>   920000  1000000something2.657
+something1.819
+something0.119
+event>   930000  1000000something0.178
+something0.177

@@ -1,0 +1,53 @@
+# BEGIN PLOT
+LegendOnly=/LHCB_2019_I1762092/d01-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/d01-x01-y01
+DrawOnly=/LHCB_2019_I1762092/d01-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/d01-x01-y01
+Title=Ratio of production cross sections $\frac{f_c}{f_u+f_d}$ plotted against $p_\perp$
+RatioPlotReference=/LHCB_2019_I1762092/d01-x01-y01
+GofLegend=1
+YLabel=$\frac{f_c}{f_u+f_d}$
+RatioPlot=1
+LogY=0
+XLabel=$p_\perp$ [GeV]
+GofType=chi2
+LegendYPos=0.35
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D /LHCB_2019_I1762092/d01-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/LHCB_2019_I1762092/d01-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	4.485207e-03	1.076923e-03	1.076923e-03
+5.000000e+00	6.000000e+00	4.230769e-03	1.017751e-03	1.017751e-03
+6.000000e+00	7.000000e+00	4.094675e-03	9.881657e-04	9.881657e-04
+7.000000e+00	8.000000e+00	4.159763e-03	1.005917e-03	1.005917e-03
+8.000000e+00	9.000000e+00	3.869822e-03	9.289941e-04	9.289941e-04
+9.000000e+00	1.000000e+01	4.218935e-03	1.029586e-03	1.029586e-03
+1.000000e+01	1.300000e+01	3.704142e-03	8.698225e-04	8.698225e-04
+1.300000e+01	2.500000e+01	2.988166e-03	7.218935e-04	7.218935e-04
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/d01-x01-y01
+ConnectBins=0
+ConnectGaps=0
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/d01-x01-y01
+Title=LHC_LHCB_fixedspin_output
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	2.323657e-03	1.272925e-04	1.272925e-04
+5.000000e+00	6.000000e+00	2.605642e-03	1.570454e-04	1.570454e-04
+6.000000e+00	7.000000e+00	2.365660e-03	1.770267e-04	1.770267e-04
+7.000000e+00	8.000000e+00	2.625024e-03	2.245651e-04	2.245651e-04
+8.000000e+00	9.000000e+00	2.386635e-03	2.532845e-04	2.532845e-04
+9.000000e+00	1.000000e+01	2.316573e-03	2.969502e-04	2.969502e-04
+1.000000e+01	1.300000e+01	2.914477e-03	2.642487e-04	2.642487e-04
+1.300000e+01	2.500000e+01	1.885955e-03	2.643355e-04	2.643355e-04
+# END HISTO1D
+

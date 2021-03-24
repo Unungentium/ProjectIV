@@ -10,13 +10,13 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
 \item The hadronization was performed using the cluster model of \cite{Webber:1983if}.
 \item Decays in Herwig include full spin correlations, based on \cite{Richardson:2001df}.
 \item Finite width effects for the scalar $f_0$ and $a_0$ mesons follow \cite{Flatte:1976xu}.
-\item Lambda_b to Lambda_c1(*) used the formfactors from \cite{Huang:2000xw}.
 \item Spin-1/2 baryons with one heavy quark were decayed using the form factors in \cite{Singleton:1990ye}.
-\item The K pi weak current has the form of \cite{Finkemeier:1996dh}.
 \item The decay of tau to three pions is modelled using the currents from \cite{Asner:1999kj}.
+\item The decay of the tau to four pions uses currents based on \cite{Bondar:2002mw}.
 \item The form factors from \cite{Ivanov:1996fj} were used.
 \item The form factors of \cite{Kiselev:2002vz} for the decay of the $B_c$ meson were used.
 \item The hadronization used the selection algorithm described in \cite{Kupco:1998fx}.
+\item The model of \cite{Kuhn:2006nw} was used for the hadronic five pion current.
 \item The quark model calculation of \cite{Schlumpf:1994fb} was usedfor the weak decay of the light baryons
 \item The underlying event was simulated with an eikonal model for multiple partonic interactions.Details can be found in Ref.~\cite{Bahr:2008dy,Bahr:2009ek}.
 \item The weak decay current to two scalar mesons is implemented using the models of either Kuhn and Santamaria \cite{Kuhn:1990ad} or Gounaris and Sakurai \cite{Gounaris:1968mw}. The mixing parameters are taken from \cite{Asner:1999kj}, although the PDG values for the masses and widths are used, for the decay pi+/- pi0. The decay K pi is assumed to  be dominated by the lowest lying K* resonance.
@@ -26,6 +26,7 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
 \item The MAMBO algorithm of \cite{Kleiss:1991rn} was used for high multiplicity decays
 \item The decay of I=0 vector mesons to three pions via a current taking into account the rho and a possible direct term is taken from \cite{Aloisio:2003ur}.
 \item The decay of eta to two pions follows \cite{Beisert:2003zs,Gormley:1970qz,Tippens:2001fm}.
+\item The decay of the $\Omega^-$ to $\Xi^{*0}\pi^-$ was simulated using the model of \cite{Duplancic:2004dy}.
 \item The decays of $\eta,\eta'\to\pi^+\pi^-\gamma$ were simulated using the matrix elements from \cite{Venugopal:1998fq,Holstein:2001bt}
 \item The decays of $\eta,\eta'\to\pi^0\gamma\gamma$ were simulated using the matrix elements of \cite{Holstein:2001bt}
 \item The decays of onium resonances to lighter states and pion pairs were modelled using the matrix element of \cite{Brown:1975dz}. The results of \cite{Bai:1999mj} are used for $\psi'\to\psi$ and \cite{Cronin-Hennessy:2007sj} for $\Upsilon(3S)$ and $\Upsilon(2S)$ decays. The remaining parameters are choosen to approximately reproduce the distributions from \cite{Aubert:2006bm} and \cite{Adam:2005mr}.
@@ -91,29 +92,12 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
   Phys.\ Lett.\  B {\bf 63}, 224 (1976).
   %%CITATION = PHLTA,B63,224;%%
 
-%\cite{Huang:2000xw}
-\bibitem{Huang:2000xw}
-  M.~Q.~Huang, J.~P.~Lee, C.~Liu and H.~S.~Song,
-  %``Leading Isgur-Wise form factor of Lambda/b to Lambda/c1 transition  using
-  %QCD sum rules,''
-  Phys.\ Lett.\  B {\bf 502}, 133 (2001)
-  [arXiv:hep-ph/0012114].
-  %%CITATION = PHLTA,B502,133;%%
-
 %\cite{Singleton:1990ye}
 \bibitem{Singleton:1990ye}
   R.~L.~Singleton,
   %``Semileptonic baryon decays with a heavy quark,''
   Phys.\ Rev.\  D {\bf 43} (1991) 2939.
   %%CITATION = PHRVA,D43,2939;%%
-
-%\cite{Finkemeier:1996dh}
-\bibitem{Finkemeier:1996dh}
-  M.~Finkemeier and E.~Mirkes,
-  %``The scalar contribution to tau --> K pi nu/tau,''
-  Z.\ Phys.\  C {\bf 72}, 619 (1996)
-  [arXiv:hep-ph/9601275].
-  %%CITATION = ZEPYA,C72,619;%%
 
   %\cite{Asner:1999kj}
 \bibitem{Asner:1999kj}
@@ -123,6 +107,15 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
   Phys.\ Rev.\  D {\bf 61}, 012002 (2000)
   [arXiv:hep-ex/9902022].
   %%CITATION = PHRVA,D61,012002;%%
+
+%\cite{Bondar:2002mw}
+\bibitem{Bondar:2002mw}
+  A.~E.~Bondar, S.~I.~Eidelman, A.~I.~Milstein, T.~Pierzchala, N.~I.~Root, Z.~Was and M.~Worek,
+   ``Novosibirsk hadronic currents for tau --> 4pi channels of tau decay
+  %library TAUOLA,''
+  Comput.\ Phys.\ Commun.\  {\bf 146}, 139 (2002)
+  [arXiv:hep-ph/0201149].
+  %%CITATION = CPHCB,146,139;%%
 
 %\cite{Ivanov:1996fj}
 \bibitem{Ivanov:1996fj}
@@ -141,6 +134,7 @@ This run was generated using Herwig~\cite{Bahr:2008pv} and the following models:
   arXiv:hep-ph/9906412.
   %%CITATION = HEP-PH/9906412;%%
 
+\bibitem{Kuhn:2006nw} J.~H.~Kuhn and Z.~Was, hep-ph/0602162, (2006).
 \bibitem{Schlumpf:1994fb}
 F.~Schlumpf,
 Phys.\ Rev.\  D {\bf 51} (1995) 2262 [arXiv:hep-ph/9409272].
@@ -245,6 +239,11 @@ Nucl.\ Phys.\  B {\bf 385} (1992) 413.
   %``Determination of the quadratic slope parameter in eta $\to$ 3pi0 decay,''
   Phys.\ Rev.\ Lett.\  {\bf 87}, 192001 (2001).
   %%CITATION = PRLTA,87,192001;%%
+
+\bibitem{Duplancic:2004dy}
+G.~Duplancic, H.~Pasagic and J.~Trampetic,
+Phys.\ Rev.\  D {\bf 70} (2004) 077506 [arXiv:hep-ph/0405162].
+%%CITATION = PHRVA,D70,077506;%%
 
 \bibitem{Venugopal:1998fq} E.~P.~Venugopal and B.~R.~Holstein,
 Phys.\ Rev.\  D {\bf 57} (1998) 4397 [arXiv:hep-ph/9710382].

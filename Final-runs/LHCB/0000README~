@@ -1,0 +1,5 @@
+11/03 
+
+Changed LHC.in to reduce the pT cuts. As of before, the pT cuts were in the range of 10GeV which meant that a lot of the pT Bc mesons were simply not accounted for. Comparing rivet plots should also tell how much this affected the final result.
+
+F

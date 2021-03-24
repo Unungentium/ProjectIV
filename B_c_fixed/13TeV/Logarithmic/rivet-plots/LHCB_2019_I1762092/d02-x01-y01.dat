@@ -1,0 +1,25 @@
+# BEGIN PLOT
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/Logarithmic/LHC_log.yoda/LHCB_2019_I1762092/d02-x01-y01
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/Logarithmic/LHC_log.yoda/LHCB_2019_I1762092/d02-x01-y01
+Title=Ratio of production cross sections $\frac{f_c}{f_u+f_d}$ plotted against $\eta$
+LogY=1
+XLabel=$\eta$
+YLabel=$\frac{f_c}{f_u+f_d}$ x$10^-3$
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/Logarithmic/LHC_log.yoda/LHCB_2019_I1762092/d02-x01-y01
+ConnectBins=0
+ConnectGaps=0
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/Logarithmic/LHC_log.yoda/LHCB_2019_I1762092/d02-x01-y01
+Title=LHC_log
+# xlow	 xhigh	 val	 errminus	 errplus
+2.500000e+00	3.000000e+00	3.934753e+00	1.958797e-01	1.958797e-01
+3.000000e+00	3.500000e+00	3.698047e+00	2.060551e-01	2.060551e-01
+3.500000e+00	4.000000e+00	3.672710e+00	2.368558e-01	2.368558e-01
+4.000000e+00	4.500000e+00	3.584754e+00	2.722676e-01	2.722676e-01
+# END HISTO1D
+

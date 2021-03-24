@@ -1,0 +1,44 @@
+# BEGIN PLOT
+RatioPlotYLabel=Ratio
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/d02-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC.yoda/LHCB_2019_I1762092/d02-x01-y01
+XLabel=$\eta$
+RatioPlotReference=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/d02-x01-y01
+YLabel=$\frac{f_c}{f_u+f_d}$
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/d02-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC.yoda/LHCB_2019_I1762092/d02-x01-y01
+RatioPlot=1
+Title=Ratio of production cross sections $\frac{f_c}{f_u+f_d}$ plotted against $\eta$
+Legend=1
+LogY=0
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/d02-x01-y01
+ConnectBins=0
+ConnectGaps=0
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC100.yoda/LHCB_2019_I1762092/d02-x01-y01
+Title=LHC100
+# xlow	 xhigh	 val	 errminus	 errplus
+2.500000e+00	3.000000e+00	4.399670e-04	2.051563e-06	2.051563e-06
+3.000000e+00	3.500000e+00	4.250103e-04	2.226311e-06	2.226311e-06
+3.500000e+00	4.000000e+00	4.091655e-04	2.472455e-06	2.472455e-06
+4.000000e+00	4.500000e+00	3.769983e-04	2.755979e-06	2.755979e-06
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC.yoda/LHCB_2019_I1762092/d02-x01-y01
+ConnectBins=0
+ConnectGaps=0
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/Testing/LHC.yoda/LHCB_2019_I1762092/d02-x01-y01
+Title=LHC
+# xlow	 xhigh	 val	 errminus	 errplus
+2.500000e+00	3.000000e+00	1.051463e-03	9.688581e-05	9.688581e-05
+3.000000e+00	3.500000e+00	8.008567e-04	9.382871e-05	9.382871e-05
+3.500000e+00	4.000000e+00	8.523755e-04	1.092535e-04	1.092535e-04
+4.000000e+00	4.500000e+00	6.970309e-04	1.147194e-04	1.147194e-04
+# END HISTO1D
+

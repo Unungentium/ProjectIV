@@ -1,6 +1,6 @@
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 >>>> Toolkit for HEP Event Generation - ThePEG 02e817c0868e (default) <<<<<<<<
->>>> Fri Feb 12 13:19:13 2021                                             <<<<
+>>>> Thu Feb 25 16:32:02 2021                                             <<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 >> Herwig d97e658e076a (default) / ThePEG 02e817c0868e (default)
@@ -10,12 +10,12 @@ Statistics for event handler 'EventHandler':
                                        generated    number of    Cross-section
                                           events     attempts             (nb)
 ==============================================================================
-Total (from attempted events): including vetoed events           0.347(2)e+06
+Total (from attempted events): including vetoed events           0.348(2)e+06
 ==============================================================================
 Total (from generated events):            10000        10003     0.347(2)e+06
 Events carry unit weights.
 ==============================================================================
 Per matrix element breakdown:
-MEHeavyQuark                                6756         6758     0.234(2)e+06
-MEHeavyQuark2                               3244         3245     0.112(2)e+06
+MEHeavyQuark                                6743         6743     0.234(2)e+06
+MEHeavyQuark2                               3257         3260     0.113(2)e+06
 ==============================================================================

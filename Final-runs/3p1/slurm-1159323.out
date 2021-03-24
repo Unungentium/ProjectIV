@@ -1,0 +1,54 @@
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000event>     1000  1000000event>     2000  1000000event>     5000  1000000something0.159
+event>    10000  1000000something0.167
+something0.173
+event>    20000  1000000something0.172
+event>    30000  1000000something0.132
+event>    40000  1000000event>    50000  1000000event>    60000  1000000something0.157
+event>    70000  1000000something0.174
+event>    80000  1000000something0.173
+event>    90000  1000000event>   100000  1000000something0.171
+something0.049
+event>   110000  1000000something0.173
+something0.170
+event>   120000  1000000event>   130000  1000000something0.123
+event>   140000  1000000event>   150000  1000000event>   160000  1000000something0.190
+event>   170000  1000000event>   180000  1000000something0.171
+something0.174
+event>   190000  1000000event>   200000  1000000something0.189
+event>   210000  1000000something0.174
+event>   220000  1000000something0.188
+event>   230000  1000000something0.174
+event>   240000  1000000event>   250000  1000000event>   260000  1000000something0.111
+event>   270000  1000000event>   280000  1000000event>   290000  1000000something0.186
+event>   300000  1000000something0.103
+event>   310000  1000000something0.071
+event>   320000  1000000something0.148
+something0.176
+event>   330000  1000000event>   340000  1000000something0.144
+something0.176
+something0.166
+event>   350000  1000000event>   360000  1000000event>   370000  1000000something0.030
+event>   380000  1000000event>   390000  1000000something0.136
+something0.077
+event>   400000  1000000event>   410000  1000000event>   420000  1000000something0.157
+event>   430000  1000000something0.080
+something0.173
+something0.177
+event>   440000  1000000event>   450000  1000000something0.149
+event>   460000  1000000something0.173
+something0.165
+event>   470000  1000000something0.149
+something0.145
+event>   480000  1000000event>   490000  1000000event>   500000  1000000something0.063
+event>   510000  1000000something0.137
+event>   520000  1000000event>   530000  1000000event>   540000  1000000something0.127
+event>   550000  1000000something0.132
+something0.166
+something0.157
+event>   560000  1000000event>   570000  1000000something0.143
+event>   580000  1000000something0.171
+event>   590000  1000000something0.168
+something0.181
+Herwig: /mt/home/fpauwels/Desktop/Herwig_gcc/include/ThePEG/EventRecord/RhoDMatrix.h:62: ThePEG::Complex ThePEG::RhoDMatrix::operator()(size_t, size_t) const: Assertion `iy < _ispin' failed.
+/var/spool/slurmd/job1159323/slurm_script: line 3: 27983 Aborted                 Herwig run LHC.run -N 1000000 --seed 18296230470

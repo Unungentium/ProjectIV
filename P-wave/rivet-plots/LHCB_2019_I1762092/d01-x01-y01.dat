@@ -1,13 +1,13 @@
 # BEGIN PLOT
-LegendOnly=/LHCB_2019_I1762092/d01-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC-output.yoda/LHCB_2019_I1762092/d01-x01-y01
-XLabel=$p_\perp$ [GeV]
+LegendOnly=/LHCB_2019_I1762092/d01-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC_P-wave.yoda/LHCB_2019_I1762092/d01-x01-y01
+DrawOnly=/LHCB_2019_I1762092/d01-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC_P-wave.yoda/LHCB_2019_I1762092/d01-x01-y01
+Title=[Insert title for histogram d01-x01-y01 here]
 RatioPlotReference=/LHCB_2019_I1762092/d01-x01-y01
-YLabel=$\frac{f_c}{f_u+f_d}$ x$10^{-3}$
-DrawOnly=/LHCB_2019_I1762092/d01-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC-output.yoda/LHCB_2019_I1762092/d01-x01-y01
 RatioPlot=1
-Title=Ratio of production cross sections $\frac{f_c}{f_u+f_d}$ plotted against $p_\perp$
+LogY=1
+XLabel=[Insert $x$-axis label for histogram d01-x01-y01 here]
+YLabel=[Insert $y$-axis label for histogram d01-x01-y01 here]
 Legend=1
-LogY=0
 # END PLOT
 
 # BEGIN HISTO1D /LHCB_2019_I1762092/d01-x01-y01
@@ -29,22 +29,22 @@ Title=Data
 # END HISTO1D
 
 
-# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC-output.yoda/LHCB_2019_I1762092/d01-x01-y01
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC_P-wave.yoda/LHCB_2019_I1762092/d01-x01-y01
 ConnectBins=0
 ConnectGaps=0
 ErrorBars=1
 LineColor=red
 LineStyle=solid
-Path=//mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC-output.yoda/LHCB_2019_I1762092/d01-x01-y01
-Title=LHC-output
+Path=//mt/home/fpauwels/Desktop/Project_Repo/P-wave/LHC_P-wave.yoda/LHCB_2019_I1762092/d01-x01-y01
+Title=LHC_P-wave
 # xlow	 xhigh	 val	 errminus	 errplus
-4.000000e+00	5.000000e+00	2.222222e-04	2.234534e-04	2.234534e-04
-5.000000e+00	6.000000e+00	3.030304e-04	3.053174e-04	3.053174e-04
-6.000000e+00	7.000000e+00	7.052272e-04	5.043277e-04	5.043277e-04
-7.000000e+00	8.000000e+00	6.999390e-04	5.008221e-04	5.008221e-04
-8.000000e+00	9.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
-9.000000e+00	1.000000e+01	3.030304e-04	3.053174e-04	3.053174e-04
-1.000000e+01	1.300000e+01	1.398601e-04	1.403483e-04	1.403483e-04
-1.300000e+01	2.500000e+01	7.442584e-04	3.357309e-04	3.357309e-04
+4.000000e+00	5.000000e+00	2.380952e-01	2.395082e-01	2.395082e-01
+5.000000e+00	6.000000e+00	1.222791e+00	6.207721e-01	6.207721e-01
+6.000000e+00	7.000000e+00	5.839726e-01	4.159459e-01	4.159459e-01
+7.000000e+00	8.000000e+00	7.221860e-01	5.157930e-01	5.157930e-01
+8.000000e+00	9.000000e+00	8.853682e-01	6.488737e-01	6.488737e-01
+9.000000e+00	1.000000e+01	1.085012e+00	6.342626e-01	6.342626e-01
+1.000000e+01	1.300000e+01	4.358713e-01	2.525734e-01	2.525734e-01
+1.300000e+01	2.500000e+01	4.097136e-01	2.375363e-01	2.375363e-01
 # END HISTO1D
 

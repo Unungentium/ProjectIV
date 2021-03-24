@@ -1,0 +1,63 @@
+# BEGIN PLOT
+LegendOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_log_rescale.yoda/LHCB_2019_I1762092/h_pT_Bc //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_power_rescale.yoda/LHCB_2019_I1762092/h_pT_Bc //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_cornell_2.yoda/LHCB_2019_I1762092/h_pT_Bc
+DrawOnly=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_log_rescale.yoda/LHCB_2019_I1762092/h_pT_Bc //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_power_rescale.yoda/LHCB_2019_I1762092/h_pT_Bc //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_cornell_2.yoda/LHCB_2019_I1762092/h_pT_Bc
+RatioPlotReference=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_log_rescale.yoda/LHCB_2019_I1762092/h_pT_Bc
+RatioPlot=1
+LogY=1
+RatioPlotYLabel=Ratio
+Legend=1
+# END PLOT
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_log_rescale.yoda/LHCB_2019_I1762092/h_pT_Bc
+LineColor=red
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_log_rescale.yoda/LHCB_2019_I1762092/h_pT_Bc
+ScaledBy=6.92623945217911374e-01
+Title=Logarithmic
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	6.095091e+01	6.497389e+00	6.497389e+00
+5.000000e+00	6.000000e+00	8.519275e+01	7.681571e+00	7.681571e+00
+6.000000e+00	7.000000e+00	9.765997e+01	8.224454e+00	8.224454e+00
+7.000000e+00	8.000000e+00	9.419686e+01	8.077314e+00	8.077314e+00
+8.000000e+00	9.000000e+00	8.450012e+01	7.650282e+00	7.650282e+00
+9.000000e+00	1.000000e+01	6.718452e+01	6.821555e+00	6.821555e+00
+1.000000e+01	1.300000e+01	5.171593e+01	3.455416e+00	3.455416e+00
+1.300000e+01	2.500000e+01	1.523772e+01	9.378174e-01	9.378174e-01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_power_rescale.yoda/LHCB_2019_I1762092/h_pT_Bc
+LineColor=blue
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_power_rescale.yoda/LHCB_2019_I1762092/h_pT_Bc
+ScaledBy=6.93436574695874719e-01
+Title=Power-law
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	8.182552e+01	7.532650e+00	7.532650e+00
+5.000000e+00	6.000000e+00	8.945332e+01	7.875925e+00	7.875925e+00
+6.000000e+00	7.000000e+00	9.846799e+01	8.263251e+00	8.263251e+00
+7.000000e+00	8.000000e+00	1.005483e+02	8.350082e+00	8.350082e+00
+8.000000e+00	9.000000e+00	1.116433e+02	8.798724e+00	8.798724e+00
+9.000000e+00	1.000000e+01	8.945332e+01	7.875925e+00	7.875925e+00
+1.000000e+01	1.300000e+01	6.379617e+01	3.840078e+00	3.840078e+00
+1.300000e+01	2.500000e+01	1.704698e+01	9.925136e-01	9.925136e-01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_cornell_2.yoda/LHCB_2019_I1762092/h_pT_Bc
+LineColor=green
+LineStyle=solid
+Path=//mt/home/fpauwels/Desktop/Project_Repo/B_c_fixed/13TeV/LHC_cornell_2.yoda/LHCB_2019_I1762092/h_pT_Bc
+ScaledBy=2.23174539804343624e+02
+Title=Cornell
+# xlow	 xhigh	 val	 errminus	 errplus
+4.000000e+00	5.000000e+00	7.364760e+03	1.282040e+03	1.282040e+03
+5.000000e+00	6.000000e+00	9.373332e+03	1.446336e+03	1.446336e+03
+6.000000e+00	7.000000e+00	6.918411e+03	1.242583e+03	1.242583e+03
+7.000000e+00	8.000000e+00	7.141587e+03	1.262466e+03	1.262466e+03
+8.000000e+00	9.000000e+00	5.133015e+03	1.070307e+03	1.070307e+03
+9.000000e+00	1.000000e+01	8.034282e+03	1.339047e+03	1.339047e+03
+1.000000e+01	1.300000e+01	5.207407e+03	6.224040e+02	6.224040e+02
+1.300000e+01	2.500000e+01	1.618016e+03	1.734695e+02	1.734695e+02
+# END HISTO1D
+

@@ -1,5 +1,5 @@
 #!bin/bash
-NEVENT=1000000
+NEVENT=100000
 for i in {1..100}; do
     let seed=435624535*$i
     echo "#!/bin/bash" >> run$i.sh

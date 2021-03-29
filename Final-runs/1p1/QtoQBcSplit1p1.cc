@@ -66,9 +66,9 @@ void QtoQBcSplit1p1::guesstz(Energy2 t1,unsigned int iopt,
   double lower = integOverP(zLimits().first ,ids,pdfopt);
   double upper = integOverP(zLimits().second,ids,pdfopt);
   // Energy2 pre = 64.*O1_*sqr(Constants::pi)/243./m_;
-  Energy5 psi_0= pow<5,1>(0.898*GeV);
+  Energy5 psi_0= pow<5,1>(0.807*GeV);
   // todo prefactor here
-  Energy2 pre =(sqr(Constants::pi)*psi_0)/(27*pow((-1 + a),4)*sqr(a)*pow<3,1>(M));
+  Energy2 pre =16*(sqr(Constants::pi)*psi_0)/(27*pow((-1 + a),4)*sqr(a)*pow<3,1>(M));
   //Here: test if this part of the code is executing properly
   // cout << "something is happening";
   Energy2 c = (upper - lower) * colourFactor() * pre *

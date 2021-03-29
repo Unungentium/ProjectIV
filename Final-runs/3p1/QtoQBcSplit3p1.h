@@ -244,7 +244,7 @@ public:
     // calculate the kernal
     DecayMEPtr kernal(new_ptr(TwoBodyDecayMatrixElement(PDT::Spin1Half,
     							PDT::Spin1Half,
-    							PDT::Spin0)));
+    							PDT::Spin1)));
     (*kernal)(0,0,0) = 1.;
     (*kernal)(1,1,0) = 1.;
     (*kernal)(0,1,0) = 1.;

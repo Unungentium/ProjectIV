@@ -14,7 +14,7 @@ EvtGen:Creating generic Pythia generator
  |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.240      |  | 
  |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change: 20 Dec 2018  |  | 
  |  |   P       Y      T    H   H   I   A   A                                      |  | 
- |  |   P       Y      T    H   H  III  A   A    Now is 23 Mar 2021 at 22:04:35    |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 25 Mar 2021 at 09:16:42    |  | 
  |  |                                                                              |  | 
  |  |   Christian Bierlich;  Department of Astronomy and Theoretical Physics,      |  | 
  |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
@@ -81,7 +81,7 @@ EvtGen:Creating alias Pythia generator
  |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.240      |  | 
  |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change: 20 Dec 2018  |  | 
  |  |   P       Y      T    H   H   I   A   A                                      |  | 
- |  |   P       Y      T    H   H  III  A   A    Now is 23 Mar 2021 at 22:04:35    |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 25 Mar 2021 at 09:16:42    |  | 
  |  |                                                                              |  | 
  |  |   Christian Bierlich;  Department of Astronomy and Theoretical Physics,      |  | 
  |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
@@ -629,15 +629,26 @@ EvtGen:Warning in EvtPythiaEngine. Trying to redefine Pythia table for Xi_c+ for
  --------  End PYTHIA Event Listing  -----------------------------------------------------------------------------------------------
  PYTHIA Warning in TauDecays::decay: unknown uncorrelated tau production, assuming unpolarized  
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 1000 events have been generated 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 2000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
 EvtGen:
@@ -645,625 +656,598 @@ Dimension:1
 (1.000,0.000) 
 
 EvtGen:Is therefore accepting the last event!
-EvtGen:Decay of particle:anti-D0(channel:5) with mass 1.865
-EvtGen:Daughter 0:rho+ with mass 1.846
+EvtGen:Decay of particle:D-(channel:7) with mass 1.870
+EvtGen:Daughter 0:rho0 with mass 1.860
 EvtGen:Daughter 1:e- with mass 0.001
 EvtGen:Daughter 2:anti-nu_e with mass 0.000
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-
- Pythia::next(): 2000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
 
  Pythia::next(): 3000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 4000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 5000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 6000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 
  Pythia::next(): 7000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 8000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 9000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
 
  Pythia::next(): 10000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 11000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 
  Pythia::next(): 12000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 13000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 14000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 15000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 
  Pythia::next(): 16000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 17000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
+EvtGen:
+Dimension:1
+(1.000,0.000) 
+
+EvtGen:Is therefore accepting the last event!
+EvtGen:Decay of particle:D+(channel:13) with mass 1.870
+EvtGen:Daughter 0:anti-K_10 with mass 1.764
+EvtGen:Daughter 1:mu+ with mass 0.106
+EvtGen:Daughter 2:nu_mu with mass 0.000
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 18000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
+EvtGen:
+Dimension:1
+(1.000,0.000) 
+
+EvtGen:Is therefore accepting the last event!
+EvtGen:Decay of particle:D0(channel:11) with mass 1.865
+EvtGen:Daughter 0:K_2*- with mass 1.759
+EvtGen:Daughter 1:mu+ with mass 0.106
+EvtGen:Daughter 2:nu_mu with mass 0.000
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 19000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 
  Pythia::next(): 20000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 21000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 22000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 23000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 
  Pythia::next(): 24000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+
+ Pythia::next(): 25000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+
+ Pythia::next(): 26000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 27000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 28000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+
+ Pythia::next(): 29000 events have been generated 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
 EvtGen:
 Dimension:1
 (1.000,0.000) 
 
 EvtGen:Is therefore accepting the last event!
-EvtGen:Decay of particle:anti-D0(channel:5) with mass 1.865
-EvtGen:Daughter 0:rho+ with mass 1.840
-EvtGen:Daughter 1:e- with mass 0.001
-EvtGen:Daughter 2:anti-nu_e with mass 0.000
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-
- Pythia::next(): 25000 events have been generated 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-
- Pythia::next(): 26000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-
- Pythia::next(): 27000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-
- Pythia::next(): 28000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-
- Pythia::next(): 29000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
+EvtGen:Decay of particle:D0(channel:13) with mass 1.865
+EvtGen:Daughter 0:rho- with mass 1.757
+EvtGen:Daughter 1:mu+ with mass 0.106
+EvtGen:Daughter 2:nu_mu with mass 0.000
 
  Pythia::next(): 30000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 31000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 32000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 33000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 34000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 35000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+
+ Pythia::next(): 36000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 37000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+
+ Pythia::next(): 38000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 39000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+
+ Pythia::next(): 40000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 41000 events have been generated 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 42000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
 EvtGen:
 Dimension:1
 (1.000,0.000) 
 
 EvtGen:Is therefore accepting the last event!
-EvtGen:Decay of particle:D+(channel:18) with mass 1.870
-EvtGen:Daughter 0:rho0 with mass 1.763
+EvtGen:Decay of particle:D+(channel:14) with mass 1.870
+EvtGen:Daughter 0:anti-K_2*0 with mass 1.764
 EvtGen:Daughter 1:mu+ with mass 0.106
 EvtGen:Daughter 2:nu_mu with mass 0.000
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-
- Pythia::next(): 36000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-
- Pythia::next(): 37000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-
- Pythia::next(): 38000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-
- Pythia::next(): 39000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-
- Pythia::next(): 40000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-
- Pythia::next(): 41000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-
- Pythia::next(): 42000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 43000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
 
  Pythia::next(): 44000 events have been generated 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
 
  Pythia::next(): 45000 events have been generated 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 46000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-
- Pythia::next(): 47000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 47000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 48000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 49000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 50000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
 
  Pythia::next(): 51000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 52000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 53000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 54000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 55000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
@@ -1271,229 +1255,222 @@ EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau
  Pythia::next(): 56000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-
- Pythia::next(): 57000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 57000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
+EvtGen:
+Dimension:1
+(1.000,0.000) 
+
+EvtGen:Is therefore accepting the last event!
+EvtGen:Decay of particle:D+(channel:7) with mass 1.870
+EvtGen:Daughter 0:rho0 with mass 1.856
+EvtGen:Daughter 1:e+ with mass 0.001
+EvtGen:Daughter 2:nu_e with mass 0.000
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 58000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 59000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 60000 events have been generated 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 61000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
+EvtGen:
+Dimension:1
+(1.000,0.000) 
+
+EvtGen:Is therefore accepting the last event!
+EvtGen:Decay of particle:anti-D0(channel:11) with mass 1.865
+EvtGen:Daughter 0:K_2*+ with mass 1.758
+EvtGen:Daughter 1:mu- with mass 0.106
+EvtGen:Daughter 2:anti-nu_mu with mass 0.000
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 62000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 63000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 64000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 65000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 
  Pythia::next(): 66000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
 
  Pythia::next(): 67000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 
  Pythia::next(): 68000 events have been generated 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
+EvtGen:
+Dimension:1
+(1.000,0.000) 
+
+EvtGen:Is therefore accepting the last event!
+EvtGen:Decay of particle:D0(channel:5) with mass 1.865
+EvtGen:Daughter 0:rho- with mass 1.857
+EvtGen:Daughter 1:e+ with mass 0.001
+EvtGen:Daughter 2:nu_e with mass 0.000
 
  Pythia::next(): 69000 events have been generated 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 
  Pythia::next(): 70000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
-EvtGen:
-Dimension:1
-(1.000,0.000) 
-
-EvtGen:Is therefore accepting the last event!
-EvtGen:Decay of particle:D+(channel:18) with mass 1.870
-EvtGen:Daughter 0:rho0 with mass 1.762
-EvtGen:Daughter 1:mu+ with mass 0.106
-EvtGen:Daughter 2:nu_mu with mass 0.000
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 
  Pythia::next(): 71000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 
  Pythia::next(): 72000 events have been generated 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:Tried accept/reject: 10000 times, and rejected all the times!
-EvtGen:
-Dimension:1
-(1.000,0.000) 
-
-EvtGen:Is therefore accepting the last event!
-EvtGen:Decay of particle:B0(channel:24) with mass 5.280
-EvtGen:Daughter 0:D'_1- with mass 3.497
-EvtGen:Daughter 1:tau+ with mass 1.777
-EvtGen:Daughter 2:nu_tau with mass 0.000
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
-EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
-EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
 
  Pythia::next(): 73000 events have been generated 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(18.131>18.112)(SLN) D_s+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+
+ Pythia::next(): 74000 events have been generated 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s+ -> mu+ nu_mu 
+EvtGen:prob > probmax:(0.345>0.345)(SLN) D_s- -> mu- anti-nu_mu 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D- -> tau- anti-nu_tau 
+EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 
 EvtGen:prob > probmax:(8.547>8.546)(SLN) D+ -> tau+ nu_tau 

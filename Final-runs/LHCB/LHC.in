@@ -80,7 +80,8 @@ do SplittingGenerator:AddFinalSplitting b->c,B_c2-; QtoQBcSplit3p2
 # Technical parameters for this run
 ##################################################
 cd /Herwig/Generators
-
+set /Herwig/Analysis/Plot:EventNumber 10000
+insert EventGenerator:AnalysisHandlers 0 /Herwig/Analysis/Plot 
 ##################################################
 # LHC physics parameters (override defaults here) 
 ##################################################

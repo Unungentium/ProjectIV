@@ -89,12 +89,26 @@ public:
     cout << "i am printing";
     Energy M = ids[0]->mass()+ids[1]->mass();
     double a2 = ids[0]->mass()/M;
-    double x=(64*pow(-1 + a2,2)*pow(a2,3)*pow<6,1>(M))/pow<3,1>(t) + 
-   (2 + pow(a2,3)*pow(-1 + z,3)*(4 + z) - pow(a2,2)*pow(-1 + z,3)*(11 + 2*z) + z*(2 + 3*(-2 + z)*z) + 
-      3*a2*(-1 + z)*(3 - 3*z + pow(z,3)))/pow(1 + a2*(-1 + z),3) + 
-      (8*(-1 + a2)*a2*pow<4,1>(M)*(-1 + a2*(-4 + a2 + 2*pow(a2,2)*(-2 + z)*(-1 + z) + 10*z - a2*z*(2 + z))))/(pow<2,1>(t)*(1 + a2*(-1 + z))) + 
-      (pow<2,1>(M)*(-3 + 9*z + a2*(16 + 8*pow(a2,3)*pow(-1 + z,2)*(-4 + 3*z) - 2*z*(9 + 5*z) - 2*pow(a2,2)*(-1 + z)*(37 + z*(-64 + 19*z)) + 
-           a2*(-55 + z*(123 + z*(-73 + 13*z))))))/((t)*pow(1 + a2*(-1 + z),2)) ; 
+    double x= (96*pow(-1 + a2,2)*pow(a2,3)*pow<6,1>(M))/
+      pow<3,1>(t) - 
+      (16*(-1 + a2)*a2*pow<4,1>(M)*
+      (-1 + 2*a2*(-2 + 5*z) + 
+        2*pow(a2,3)*(2 - 3*z + pow(z,2)) - 
+        pow(a2,2)*(-1 + 2*z + pow(z,2))))/
+      (pow<2,1>(t)*(1 + a2*(-1 + z)))		\
+    + (6*z*(6 + pow(a2,4)*pow(-1 + z,4) - 8*z + 
+        3*pow(z,2) - 2*pow(a2,3)*pow(-1 + z,3)*(1 + z) + 
+        pow(a2,2)*pow(-1 + z,2)*(-1 + 3*pow(z,2)) + 
+        2*a2*(-4 + 7*z - 4*pow(z,2) + pow(z,3))))/
+    pow(1 + a2*(-1 + z),4) - 
+      (3*pow(a2,4)*pow<2,1>(M)*
+      (-3 + 9*z + 8*pow(a2,4)*pow(-1 + z,2)*(-4 + 3*z) - 
+        2*a2*(-8 + 9*z + 5*pow(z,2)) + 
+        pow(a2,3)*(74 - 202*z + 166*pow(z,2) - 
+           38*pow(z,3)) + 
+        pow(a2,2)*(-55 + 123*z - 73*pow(z,2) + 13*pow(z,3)))
+      )/((t)*
+      pow(1 + a2*(-1 + z),2)); 
     return x;
   }
 
@@ -125,12 +139,26 @@ public:
 		const IdList &ids , const bool, const RhoDMatrix &) const {
     Energy M = ids[0]->mass()+ids[1]->mass();
     double a2 = ids[0]->mass()/M;
-    double x=(1/v)*(1-sqr(z))*((64*pow(-1 + a2,2)*pow(a2,3)*pow<6,1>(M))/pow<3,1>(t) + 
-   (2 + pow(a2,3)*pow(-1 + z,3)*(4 + z) - pow(a2,2)*pow(-1 + z,3)*(11 + 2*z) + z*(2 + 3*(-2 + z)*z) + 
-      3*a2*(-1 + z)*(3 - 3*z + pow(z,3)))/pow(1 + a2*(-1 + z),3) + 
-      (8*(-1 + a2)*a2*pow<4,1>(M)*(-1 + a2*(-4 + a2 + 2*pow(a2,2)*(-2 + z)*(-1 + z) + 10*z - a2*z*(2 + z))))/(pow<2,1>(t)*(1 + a2*(-1 + z))) + 
-      (pow<2,1>(M)*(-3 + 9*z + a2*(16 + 8*pow(a2,3)*pow(-1 + z,2)*(-4 + 3*z) - 2*z*(9 + 5*z) - 2*pow(a2,2)*(-1 + z)*(37 + z*(-64 + 19*z)) + 
-				   a2*(-55 + z*(123 + z*(-73 + 13*z))))))/((t)*pow(1 + a2*(-1 + z),2)));
+    double x=(1/v)*(1-sqr(z))*((96*pow(-1 + a2,2)*pow(a2,3)*pow<6,1>(M))/
+      pow<3,1>(t) - 
+      (16*(-1 + a2)*a2*pow<4,1>(M)*
+      (-1 + 2*a2*(-2 + 5*z) + 
+        2*pow(a2,3)*(2 - 3*z + pow(z,2)) - 
+        pow(a2,2)*(-1 + 2*z + pow(z,2))))/
+      (pow<2,1>(t)*(1 + a2*(-1 + z)))		\
+    + (6*z*(6 + pow(a2,4)*pow(-1 + z,4) - 8*z + 
+        3*pow(z,2) - 2*pow(a2,3)*pow(-1 + z,3)*(1 + z) + 
+        pow(a2,2)*pow(-1 + z,2)*(-1 + 3*pow(z,2)) + 
+        2*a2*(-4 + 7*z - 4*pow(z,2) + pow(z,3))))/
+    pow(1 + a2*(-1 + z),4) - 
+      (3*pow(a2,4)*pow<2,1>(M)*
+      (-3 + 9*z + 8*pow(a2,4)*pow(-1 + z,2)*(-4 + 3*z) - 
+        2*a2*(-8 + 9*z + 5*pow(z,2)) + 
+        pow(a2,3)*(74 - 202*z + 166*pow(z,2) - 
+           38*pow(z,3)) + 
+        pow(a2,2)*(-55 + 123*z - 73*pow(z,2) + 13*pow(z,3)))
+      )/((t)*
+      pow(1 + a2*(-1 + z),2)));
     if (x>1){ cout << "something" << x<<endl;}
  
     return x;
@@ -212,7 +240,7 @@ public:
     // calculate the kernal
     DecayMEPtr kernal(new_ptr(TwoBodyDecayMatrixElement(PDT::Spin1Half,
     							PDT::Spin1Half,
-    							PDT::Spin0)));
+    							PDT::Spin1)));
     (*kernal)(0,0,0) = 1.;
     (*kernal)(1,1,0) = 1.;
     (*kernal)(0,1,0) = 1.;

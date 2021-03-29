@@ -1,0 +1,7 @@
+event>     initevent>        0  1000000Rivet.Analysis.Handler: INFO  Using named weights
+event>        1  1000000event>        2  1000000event>        5  1000000event>       10  1000000event>       20  1000000event>       50  1000000event>      100  1000000event>      200  1000000event>      500  1000000slurmstepd: error: *** JOB 1238340 ON ip3-cpu4 CANCELLED AT 2021-03-26T10:43:25 ***
+
+BasicConsistency: maximum 4-momentum violation: 0.280 MeV
+
+The MCnet usage guidelines apply to Rivet: see http://www.montecarlonet.org/GUIDELINES
+Please acknowledge Rivet in results made using it, and cite https://arxiv.org/abs/1912.05451

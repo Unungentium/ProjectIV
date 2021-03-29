@@ -1,9 +1,9 @@
 # BEGIN PLOT
-LegendOnly=/LHCB_2019_I1762092/d02-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/d02-x01-y01
+LegendOnly=/LHCB_2019_I1762092/d02-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_2_output.yoda/LHCB_2019_I1762092/d02-x01-y01
 XLabel=$\eta$
 RatioPlotReference=/LHCB_2019_I1762092/d02-x01-y01
 YLabel=$\frac{f_c}{f_u+f_d}$
-DrawOnly=/LHCB_2019_I1762092/d02-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/d02-x01-y01
+DrawOnly=/LHCB_2019_I1762092/d02-x01-y01 //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_2_output.yoda/LHCB_2019_I1762092/d02-x01-y01
 RatioPlot=1
 Title=Ratio of production cross sections $\frac{f_c}{f_u+f_d}$ plotted against $\eta$
 LegendYPos=0.35
@@ -26,18 +26,18 @@ Title=Data
 # END HISTO1D
 
 
-# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/d02-x01-y01
+# BEGIN HISTO1D //mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_2_output.yoda/LHCB_2019_I1762092/d02-x01-y01
 ConnectBins=0
 ConnectGaps=0
 ErrorBars=1
 LineColor=red
 LineStyle=solid
-Path=//mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_output.yoda/LHCB_2019_I1762092/d02-x01-y01
-Title=LHC_LHCB_fixedspin_output
+Path=//mt/home/fpauwels/Desktop/Project_Repo/Final-runs/LHCB/LHC_LHCB_fixedspin_2_output.yoda/LHCB_2019_I1762092/d02-x01-y01
+Title=
 # xlow	 xhigh	 val	 errminus	 errplus
-2.500000e+00	3.000000e+00	2.525742e-03	1.220979e-04	1.220979e-04
-3.000000e+00	3.500000e+00	2.352130e-03	1.288541e-04	1.288541e-04
-3.500000e+00	4.000000e+00	2.417004e-03	1.467294e-04	1.467294e-04
-4.000000e+00	4.500000e+00	2.498307e-03	1.709940e-04	1.709940e-04
+2.500000e+00	3.000000e+00	2.709581e-03	1.201447e-04	1.201447e-04
+3.000000e+00	3.500000e+00	2.684153e-03	1.308378e-04	1.308378e-04
+3.500000e+00	4.000000e+00	2.617969e-03	1.449634e-04	1.449634e-04
+4.000000e+00	4.500000e+00	2.710891e-03	1.699925e-04	1.699925e-04
 # END HISTO1D
 
